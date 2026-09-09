@@ -13,28 +13,29 @@
         font-family: monospace;
       }
 
-      img {
+      li img {
         max-width: 10em;
         max-height: 10em;
       }
 
-      ul:nth-of-type(1) {
+      img {
+        width: 35em;
+        max-height: 40em;
+      }
+
+      ul {
         display: flex;
       }
 
-      ul:nth-of-type(1) li {
+      ul li {
         display: grid;
         padding: 2em;
         padding-top: 0;
       }
 
-      ul:nth-of-type(2) {
+      #inspolinks {
         display: flex;
         flex-direction: column;
-      }
-
-      ul:nth-of-type(2) li {
-        display: block;
       }
     </style>
   </head>
@@ -48,18 +49,16 @@ zie https://github.com/gnab/remark/wiki voor alle mogelijkheden!
 
 # Inspiratie voor de digital garden van Bryenne Fredison
 
-Dit is een voorbeeld. pas aan
-
 ---
 
 # Agenda
 
 
-1. Onderwerp
+1. Onderwerp: Haaien
 2. 10 links
 3. 50 afbeeldingen
-4. ...(max 11 slides, 15 totaal)
-5. introtekst van max. 180 tekens
+4. 8 slides
+5. Introtekst
 
 ---
 
@@ -88,8 +87,8 @@ Afbeeldingen:
 
 # 10 links
 
-Welke 10 links heb je gelezen, geraadpleegd ter inspiratie, verdieping? Wat heb je daaruit gehaald?
-<ul>
+Deze 10 links heb ik gelezen, geraadpleegd ter inspiratie, en mij in het onderwerp verdiept.
+<ul id="inspolinks">
   <li><a href="https://www.wwf.nl/dieren/haai">https://www.wwf.nl/dieren/haai</a></li>
   <li><a href="https://neal.fun/deep-sea/">https://neal.fun/deep-sea/</a></li>
   <li><a href="https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you">https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you</a></li>
@@ -102,7 +101,7 @@ Welke 10 links heb je gelezen, geraadpleegd ter inspiratie, verdieping? Wat heb 
 
 ---
 
-# Zoek 50 afbeeldingen
+# Mijn 50 afbeeldingen
 
 Waarom kies je specifiek voor deze verzameling? Zijn er patronen te ontdekken? Heeft
 alles een specifieke kleurstelling? Herken je een actie, een gevoel, een materiaal of
@@ -112,28 +111,22 @@ een standpunt? Wat is kenmerkend voor deze verzameling? Welke dingen komen steed
 
 <!-- Slide zonder titel! -->
 
-Hieronder een voorbeeld voor het opnemen van een afbeelding. Het is iets lastiger
-om met Remarkjs een heleboel afbeeldingen op één slide op te nemen, je hebt daar
-veel custom CSS voor nodig. Een handige workaround is om in een fotobewerkingsprogramma
-een aantal collages van de door jou gevonden afbeeldingen te maken en die op te
-nemen als afbeelding op de slide...
+Hieronder een beeld van de stijl(en) die ik wil gebruiken, het lettertype, en kleuren.
 
-![placeholder image](./placeholder.svg)
+![placeholder image](./images/inspopictures.jpg)
+
 
 ---
-background-image: url(./placeholder.svg)
-
-... of als [background image](https://github.com/gnab/remark/wiki/Markdown#background-image) voor een slide.
+![placeholder image](./images/inspopictures2.png)
 
 ---
 
 # Introtekst
 
-Wat wil je een ander vertellen over je onderwerp ​Dat haaien best wel chill zijn, maar een bedreigde diersoort zijn. Waarom zij 
+​Ik wil anderen vertellen dat haaien best wel wat coole facts hebben en meedelen hoe belangrijk zij zijn voor het ecosysteem
 
-Hoe denk je dit te vertellen met eigen content? en met overige content zoals (links, afbeeldingen, tekst)
+Ik wil vertellen dmv veel tekst maar ook leuke interactieve elementen, afbeeldingen en misschien filmpjes.
 
-Schrijf een eerste stukje content als basis voor je garden (maximaal 180 tekens).
 Haaien zijn een van de oudste diersoorten op aarde. Zij bestaan al ongeveer 400 miljoen jaren, dat is zelfs ouder dan dinosaurussen! Zij hebben een zeer goede geheugen, en zelfs probleem-oplossende vaardigheden. Dus slimme dieren ook. Zij zijn een heel belangrijk onderdeel van het mariene ecosysteem en zorgen voor de balans en gezondheid van de oceanen. 
 Haaien worden vaak verkeerd begrepen door de mens. Wij zien de haaienfilms en denken vaak dat zij agressieve jagers zijn, die bij elke kans die ze krijgen graag een mens op het menu hebben staan. Maar dat is helemaal niet zo. Per jaar sterven gemiddeld 10 personen aan een haaienaanval, in vergelijking tot 100 miljoen haaien die elk jaar sterven door de mens. Wie vormt dus de echte bedreiging? Haaien zijn inderdaad een bedreigde diersoort, en dat komt door de mens. Hoe kunnen wij deze bedreiging tegengaan? Hoe lossen wij het op?
 
