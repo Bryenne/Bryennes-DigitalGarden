@@ -24,7 +24,7 @@ Ik wil mijn Digital Garden laten gaan over Haaien en waarom zij een bedreigde di
 
 ### 3 sept - [Workshop]
 
-[...]
+Ik heb de CSS deep dive gedaan.
 
 ### 31 aug - Kickoff
 
