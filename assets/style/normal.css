@@ -11,9 +11,23 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+  max-width: 80%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+
+nav ul li {
+  margin: 0.5em;
 }
 
 img {
-  width: 100%;
+  width: 80%;
+  max-width: 40em;
+  min-width: 15em;
   height: auto;
 }
