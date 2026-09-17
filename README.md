@@ -1,8 +1,12 @@
 # Model
 
-Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
+Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
 ## Learning Log
+
+### 17 sept - Thuis werken
+
+Ik heb vandaag heel veel veranderd aan mijn website. Ik ben nog niet klaar met de achtergrond maar wil het sowieso aanpassen en het duidelijker laten aansluiten bij mijn stijl inspiratie. Ik heb nu 2 kolommen naast elkaar staan. Ik heb de lettergroottes responsive gemaakt en eigenlijk de hele pagina ook. Ik heb wel nog images gebruikt van pinterest omdat ik niet genoeg tijd had om deze allemaal zelf te maken. Ik heb veel van de Deep Dives weer nagekeken.
 
 ### 15 sept - Deep Dive: Responsive grid + Grid-areas
 
@@ -10,7 +14,21 @@ Ik ben bij de deep dive geweest en heb middels de oefeningen geleerd hoe ik grid
 
 ### 14 sept - Check out
 
-Een website wordt lelijk wanneer deze
+Een website wordt lelijk wanneer:
+deze niet responsive is en er niet genoeg witte ruimte is. Alles is dus te dicht op elkaar en niet het is overzichtelijk.
+Wannneer het een saaie website is. Er is maar 1 kolom.
+Geen goede contrasten gebruikt.
+Lettergrootte is overal hetzelfde en de lettertype past niet bij je onderwerp.
+
+Je kunt dus witte ruimte plaatsen tussen teksten, images enz. Meer dan 1 kolom maken. Betere contrasten proberen te gebruiken. Lettergrootte aanpassen aan de hand van kopteksten en paragraphs, en de lettertype baseren op het thema.
+
+Ik doe morgen de Deep Dive dive over responsive grid. Ook wil ik nog de lettergroottes responsive maken met de informatie die staat bij de fonts kleuren en effecten deep dive.
+
+Mijn garen in Webby vocabulair onderbouwen: Ik vind mijn website wel fluïde en adaptief. Het is responsive en nu heb ik wel een heel simpele light en dark versie maar nog geen knopje hiervoor. Ik wil de Deep dive hierover nog nakijken.
+Ik heb verschillende states voor mijn links toegevoegd.
+Mijn website is tot nu toe wel toegankelijk. zwart op wit contrast.
+Mijn website is nog niet volwassen.
+Wel expressief omdat ik bezig ben mijn eigen stijl eraan toe te passen.
 
 ### 11 sept - Feedback
 
