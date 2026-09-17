@@ -1,4 +1,3 @@
-/* HIER KOMT JOUW CSS */
 @font-face {
   font-family: "Slackey";
   src: url(../type/Slackey-Regular.ttf);
@@ -17,6 +16,7 @@ html {
   --whitespace-s: 1rem;
   --whitespace-m: calc(var(--whitespace-s) * 2);
   --whitespace-l: calc(var(--whitespace-s) * 4);
+  --whitespace-xl: calc(var(--whitespace-s) * 10);
   --whitespace-xs: calc(var(--whitespace-s) * 0.5);
 
   --step--2: clamp(0.7137rem, 0.6181rem + 0.4777vw, 1.0003rem);
@@ -30,20 +30,12 @@ html {
 }
 
 body {
-  font-size: var(--step--1);
-  font-family: SyneMono;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background: url(../images/fin-top-gray.png), url(../images/blue-shark.png);
-  background-position:
-    left top,
-    left center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 50%, 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url(../images/background-underwater.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -55,6 +47,19 @@ header {
   place-items: end;
 }
 
+main {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  background-image: url(../images/footer-image.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: var(--whitespace-s);
+}
+
 h1 {
   font-size: var(--step-2);
   margin-right: var(--whitespace-xs);
@@ -64,65 +69,62 @@ h1 {
 }
 
 h2 {
-  margin-block-start: var(--whitespace-l);
-  margin-bottom: var(--whitespace-s);
+  margin-top: 9em;
   font-size: var(--step-1);
   font-family: Slackey;
+  color: white;
+}
+
+h3 {
+  font-family: Slackey;
+  color: white;
 }
 
 p {
-  margin-bottom: var(--whitespace-m);
+  font-family: SyneMono;
+  color: white;
 }
 
-main {
-  max-width: 80%;
-  margin: auto;
-  margin-top: 3em;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: auto;
-}
-
-nav ul li {
-  margin: 0.5em;
+a {
+  color: darkblue;
+  font-family: SyneMono;
 }
 
 img {
-  width: 80%;
-  max-width: 40em;
-  min-width: 15em;
-  height: auto;
+  width: 30%;
+  display: grid;
+  place-self: center;
 }
 
-button {
-  color: greenyellow;
-  background-color: darkgreen;
-  border: 0.2em solid greenyellow;
-  font-family: SyneMono;
-  padding: 0.4em;
-  font-size: var(--step--1);
-  transition: transform 0.2s ease-in-out;
+article:nth-of-type(1) {
+  margin-top: 15em;
+  margin-bottom: 18em;
 }
 
-button:focus {
-  background-color: rgb(0, 110, 122);
-  border: 0.2em solid rgb(156, 209, 255);
-  transform: scale(1.1);
+article:nth-of-type(2) {
+  margin-bottom: 20em;
 }
 
-button:active {
-  background-color: rgb(2, 26, 2);
+article:nth-of-type(3) {
+  margin-bottom: 20em;
 }
 
-button:hover {
-  background-color: rgb(27, 181, 27);
-  transform: scale(1.1);
+article:nth-of-type(4) {
+  margin-bottom: 25em;
 }
 
-button a {
-  color: greenyellow;
-  text-decoration: none;
+article:nth-of-type(5) {
+  margin-bottom: 25em;
+}
+
+article:nth-of-type(6) {
+  margin-bottom: 30em;
+}
+
+article:nth-of-type(7) {
+  margin-bottom: 30em;
+}
+
+article:nth-of-type(8) {
+  margin-bottom: 0;
 }
