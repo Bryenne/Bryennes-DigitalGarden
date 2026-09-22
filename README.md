@@ -4,6 +4,88 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 22 sept - Ontwerpproces
+
+Ik heb gebruik gemaakt van images als achtergrond elementen. Op de home pagina wilde ik een effect krijgen waarbij twee haaien vinnen uit elkaar schoven aan de hand van de grootte van het scherm. Dat lukte mij niet helemaal. De twee vinnen schoven steeds over elkaar heen en wist ik dit niet op te lossen, dus heb ik het voorlopig eruit gelaten en door gewerkt aan de content op mijn website.
+
+Dit was mijn website voorheen
+![achtergrond-img](./oefeningen/presentatie/images/readme-achtergrond.png)
+
+Ook op de "Depthometer" pagina heb ik een hele lange image gebruikt als achtergrond als gradient, maar besefte ik later dat ik dit ook gewoon met CSS kan.
+
+Waarmee ik vaak moeite heb is blijven bij 1 idee. Ik verander steeds van gedachten en heb dan steeds een ander idee voor de stijl van mijn pagina. Maar ik wil wel heel graag door gaan met de stijl die ik op mijn Miro bord staan heb, omdat ik vind dat deze het beste past.
+![miro-bord1](./oefeningen/presentatie/images/readme-miro.png)
+![miro-bord2](./oefeningen/presentatie/images/readme-miro2.png)
+
+Experimenteren in Adobe Illustrator:
+Hier was ik aan het uittesten met chrome effecten in adobe illustrator. Ik dacht misschien kan ik deze gebruiken voor de fotos van haaien op mijn pagina, maar ik denk dat deze toch iets te onduidelijk zijn en kies dan liever voor een soort blue x-ray type effect.
+![adobe-experiment1](./oefeningen/presentatie/images/readme-adobeillustrator0.png)
+
+Dit was een beginfase bij het ontwerpen van mijn header. Ik wilde een soort drip effect maar met meer kleuren. Dit was dus de outline om een simpel beeld te krijgen maar ik vond het toch niet heel leuk.
+![adobe-experiment2](./oefeningen/presentatie/images/readme-adobeillustrator.png)
+Ik wil dan liever voor de tekst alleen het drip effect gebruiken, maar weet nog niet zeker hoe ik dat zal doen.
+
+Dit was dus het idee voor mijn achtergrond. De twee vinnen zouden dan bij- en uit elkaar schuiven aan de hand van de scherm grootte. Dit heb ik helaas nog niet successvol kunnen doen, en weet ik ook niet of ik die nog wil voor mijn website. Ik houd van de lege ruimte die ik nu op mijn pagina heb, maar wil natuurlijk wel wat dingetjes erbij zetten. Ook houd ik niet heel veel van het saaie zwart wit contrast. dit zou ik eventueel wel kunnen veranderen maar het voelt aan alsof niets past
+![adobe-experiment3](./oefeningen/presentatie/images/readme-adobeillustrator1.png)
+
+De tweede haai zou dus ook dienen als een tekstvlak. Dit wil ik wel nog ergens toepassen maar nog niet zeker waar en hoe. Ik wil dan wel het kleurrijke chrome effect erop hebben.
+![adobe-experiment4](./oefeningen/presentatie/images/readme-adobeillustrator2.png)
+
+### 21 sept - Compliance Checkout
+
+Wat zijn HTML landmark role elements?
+Het zijn elementen die belangrijke en grote gedeeltes van een website aangeven. (main, header, footer, nav) Ze geven dus een duidelijk structuur aan en helpen met screenreaders gebruiken, om snel door een pagina te kunnen navigeren. De screenreader kan de landmarks herkennen om van de ene belangrijke sectie te springen naar een andere.
+Maar de header en footer zijn alleen landmarks wanneer ze niet genest staan in een ander landmark, anders is het gewoon een sectie.
+
+Wat zijn heading elementen en hoe horen deze 'genest' te worden?
+Heading elementen zijn h1 tot en met h6.
+De h1 heeft de belangrijkste en hoogste positie. Denk aan de titel van de pagina.
+h2 als subsectie van de h1
+h3 een subsectie van de h2 en zo verder tot h6.
+
+Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
+Ik klik altijd op cookies afwijzen of alleen nodige cookies accepteren die zorgen ervoor dat de website goed werkt, omdat ik niet wil dat alles dat ik online doe wordt getraced alleen zodat ik gepersonaliseerde advertenties krijg. Ik besteed toch nooit aandacht aan de advertenties. Ik weet ook niet heel precies waar zij toegang naar hebben. Ik ben er gewoon geen fan van. Ik ben niet bij de college geweest wegens persoonlijke redenen, maar ik ben niet van gedachten veranderd en klik lekker door op "No thanks" als het mijn toestemming vraagt.
+
+### 18 sept - Voortgangsgesprek
+
+Mijn website is niet heel persoonlijk, wat verbind de haaien aan mij? Waarom heb ik hiervoor gekozen en waarom vind ik dit onderwerp zo bijzonder? Ik heb ook een beetje een saaie website, lijkt op een wikipedia.
+
+Ik moet mijn werk nog uploaden op DLO.
+
+Verder moet ik meer gaan werken aan mijn gekozen stijl, achtergrond en tekst aanpassen aan de hand daarvan. Bronnen en Images toevoegen aan mijn Learning log.
+
+Voeg een light/dark mode button toe.
+
+Handig om te weten wat de step en clamp dingen doen en waarvoor de nummers staan.
+
+Laten zien welke schetsen en inspiratiebeelden ik gebruik heb. Wat mijn ontwerpproces is/was.
+
+CHECKOUT
+Waarom geven docenten deze opdracht?
+Ik denk dat zij deze opdracht geven om te zien hoe creatief wij kunnen zijn als wij de vrijheid krijgen om iets te maken waar wij enthousiast over zijn en waar wij een deel van onzelf in kunnen herkennen. Tegelijkertijd leren wij ook nieuwe mogelijkheden binnen html en css en wat is een betere manier om iets nieuws te leren dan het direct in de praktijk te gebruiken.
+
+Welke technieken gebruik ik?
+
+Wat zijn de randvoorwaarden?
+
+Waar gebruik ik HTML/CSS voor?
+
+Wat kan er allemaal met CSS?
+
+Lukt het om verschillende ideeën te bedenken?
+Het lukt wel, maar ik heb vaak het probleem dat ik denk aan een idee maar makkelijk afdwaal van het eerste idee en in het proces vergeet waar ik allemaal aan dacht. Ik kan dit oplossen door direct mijn ideeën op te schrijven, maar dan heb ik ook niet altijd hetzelfde beeld waaraan ik toen dacht in mijn hoofd.
+
+Lukt het om ideeën te schetsen?
+Ja maar ook nee. In mijn hoofd kan iets er heel anders uit zien dan ik kan verbeelden. Ik wil wel beginnen bij 1 punt en dan kijken hoe verder.
+
+Wat doet deze CSS property?
+
+Welke content en welke HTML heb ik nodig?
+
+Hoe kan ik dit soort vormen vormgeven?
+
+Wat als ik hier nu eens 1000 invul?
+
 ### 17 sept - Thuis werken
 
 Ik heb vandaag heel veel veranderd aan mijn website. Ik ben nog niet klaar met de achtergrond maar wil het sowieso aanpassen en het duidelijker laten aansluiten bij mijn stijl inspiratie. Ik heb nu 2 kolommen naast elkaar staan. Ik heb de lettergroottes responsive gemaakt en eigenlijk de hele pagina ook. Ik heb wel nog images gebruikt van pinterest omdat ik niet genoeg tijd had om deze allemaal zelf te maken. Ik heb veel van de Deep Dives weer nagekeken.
