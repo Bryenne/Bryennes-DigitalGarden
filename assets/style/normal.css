@@ -57,6 +57,10 @@ html:has([value="dark-theme"]:checked) {
   color-scheme: dark;
 }
 
+html:has(dialog:open) {
+  overflow-y: clip;
+}
+
 body {
   font-size: var(--step--1);
   font-family: SyneMono;
@@ -94,9 +98,9 @@ body {
 }
 
 header {
-  /* background-image: url(../images/header-dark.png);
+  background-image: url(../images/header-dark.png);
   background-repeat: no-repeat;
-  background-size: 100%; */
+  background-size: 100%;
 
   grid-area: header;
   display: grid;
@@ -132,11 +136,19 @@ footer {
   display: grid;
   place-items: center;
   background-color: black;
+  color: white;
   border-top: 1em rgb(24, 24, 24) solid;
   background-image: url(../images/footer-image.png);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+dialog {
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(2px);
+  }
 }
 
 header article {

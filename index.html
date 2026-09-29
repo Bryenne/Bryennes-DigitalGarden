@@ -8,7 +8,7 @@
 
     <title>Digitaal Tuintje van Bryenne!</title>
     <link rel="stylesheet" href="./assets/style/normal.css" />
-
+    <script defer src="script.js"></script>
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
     <script
       data-page="[https://sharkdomain.nl]"
@@ -156,6 +156,21 @@
           <li><a href="">Creator</a></li>
           <li><a href="">Contact</a></li>
         </ul>
+        <button commandfor="mydialog" command="show-modal">
+          Cookie instellingen
+        </button>
+        <dialog id="mydialog">
+          <form method="dialog">
+            <h2>Cookies instellen</h2>
+            <p>
+              Voor legale redenen moeten wij jouw vragen naar toestemming om uw
+              persoonlijke gegevens te gebruiken voor weet ik veel. Ik beloof
+              dat ik jouw gegevens niet zal verkopen!
+            </p>
+            <button>Accepteren</button>
+            <button>Weigeren</button>
+          </form>
+        </dialog>
       </nav>
     </aside>
 

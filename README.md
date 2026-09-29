@@ -14,6 +14,8 @@ Het ziet er nu dus zo uit. Ik ben bewust ervan dat mijn gewenste stijl helemaal 
 
 Ik heb de inhoud van mijn website een heel klein beetje aangepast zodat mijn onderwerp meer te maken heeft met mij in plaats van gewoon een saaie informatie pagina is. Ik vind het zelf nog saai maar heb problemen met ideeen bedenken om deze interessanter te maken.
 
+Ik heb nu ook een dialog toegevoegd. Dit is een pop up venster dat komt wanneer je op een button klikt. Ik heb het gemaakt zodat je niet op de achtergrond kan scrollen terwijl dit venster open is. De buttons "accepteer" en "weiger" cookies heeft nog geen echte functie.
+
 ### 28 sept - Bi-weekly geek 2
 
 Vandaag hebben wij geleerd hoe wij met een screenreader moeten omgaan en hoe belangrijk het is om jouw website toegankelijk te maken. Dit is trouwens ook de wet, dus jouw website moet voldoen aan bepaalde eisen, en dat moeten wij dus ook toepassen aan onze website. Wij hebben tijdens de les ook een beetje kunnen ervaren wat mensen met beperkingen ervaren op een dagelijkse basis, en waarmee zij te maken krijgen als iets niet is ontworpen met hun beperking in gedachten.
