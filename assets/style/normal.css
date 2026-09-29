@@ -14,6 +14,26 @@
 }
 
 html {
+  color-scheme: light dark;
+
+  --background: light-dark(#aee8ff, #1f1f3e);
+  --color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
+
+  --background-button: light-dark(rgb(45, 240, 84), rgb(255, 180, 51));
+  --color-button: light-dark(white, white);
+
+  --background-a: light-dark(rgb(122, 249, 80), rgb(255, 180, 51));
+  --color-a: light-dark(white, white);
+
+  accent-color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
+
+  /* Deze informaatie heb ik gehaald van de dark and light mode Deep Dive op DLO */
+
+  /* --background-img: light-dark(
+    url(../assets/images/header-dark.png),
+    url(../assets/images/header-light.png)
+  ); */
+
   --whitespace-s: 1rem;
   --whitespace-m: calc(var(--whitespace-s) * 2);
   --whitespace-l: calc(var(--whitespace-s) * 4);
@@ -29,52 +49,65 @@ html {
   --step-5: clamp(1.1237rem, -2.2701rem + 16.9691vw, 11.3052rem);
 }
 
+html:has([value="light-theme"]:checked) {
+  color-scheme: light;
+}
+
+html:has([value="dark-theme"]:checked) {
+  color-scheme: dark;
+}
+
 body {
   font-size: var(--step--1);
   font-family: SyneMono;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
+  background-color: var(--background);
+  color: var(--color);
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: url(../images/fin-top-gray.png);
+  /* background: url(../images/fin-top-gray.png);
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 50%; */
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
     "header"
-    "main"
     "aside"
+    "main"
     "footer";
 }
 
 @media (width>30em) {
   body {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-      "header header "
-      "aside main    "
-      ".     main    "
-      "footer footer ";
+      "header header header"
+      "aside main .        "
+      ".     main .        "
+      "footer footer footer";
   }
 }
 
 header {
+  /* background-image: url(../images/header-dark.png);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+
   grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   margin: 0;
   margin-bottom: 2em;
   max-width: 100%;
   padding-top: 0.5em;
   padding-right: 1em;
-  display: grid;
-  place-items: end;
+  padding-bottom: 1em;
 }
 
 main {
@@ -106,7 +139,33 @@ footer {
   background-position: center;
 }
 
-article:not(:first-of-type) {
+header article {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/-1;
+}
+
+header article article {
+  display: grid;
+  align-items: center;
+  margin: 1em;
+}
+
+header h2 {
+  grid-column: 1/-1;
+  width: 18ch;
+  text-align: center;
+  place-self: center;
+}
+
+header img {
+  grid-column: 1/-1;
+  place-self: center;
+  min-width: 10em;
+  max-width: 25em;
+}
+
+main article:not(:first-of-type) {
   margin-top: 5em;
 }
 
@@ -116,12 +175,14 @@ h1 {
   text-align: end;
   font-family: Slackey;
   width: min-content;
+  place-self: end;
 }
 
 h2 {
   margin-bottom: var(--whitespace-s);
   font-size: var(--step-1);
   font-family: Slackey;
+  margin-right: 0.5em;
 }
 
 p {
@@ -160,9 +221,9 @@ p a:hover {
 }
 
 a {
-  color: greenyellow;
-  background-color: darkgreen;
-  border: 0.2em solid greenyellow;
+  color: var(--color-a);
+  background-color: var(--background-a);
+  border: 0.2em solid var(--color-a);
   border-radius: 0.5em;
   font-family: SyneMono;
   padding: 0.4em;
@@ -178,7 +239,7 @@ a:focus {
 }
 
 a:active {
-  background-color: rgb(2, 26, 2);
+  background-color: rgb(109, 139, 80);
 }
 
 a:hover {

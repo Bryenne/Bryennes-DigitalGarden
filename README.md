@@ -4,14 +4,58 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 29 sept - Proces
+
+Ik heb vandaag thuis eindelijk de dark and light mode Deep dive gedaan en mijn website aangepast. Ik heb nu bij dark mode een donkerblauwe achtergrond en lichtblauwe tekst, en bij light mode het omgekeerde. Ook is er daarbij een auto button die aan de hand van jouw apparaat instellingen dark of light mode kiest.
+
+Het ziet er nu dus zo uit. Ik ben bewust ervan dat mijn gewenste stijl helemaal niet erin voorkomt en ik deze nog moet toevoegen.
+![Licht-proces](./oefeningen/presentatie/images/donkerproces.png)
+![Donker-proces](./oefeningen/presentatie/images/lichtproces.png)
+
+Ik heb de inhoud van mijn website een heel klein beetje aangepast zodat mijn onderwerp meer te maken heeft met mij in plaats van gewoon een saaie informatie pagina is. Ik vind het zelf nog saai maar heb problemen met ideeen bedenken om deze interessanter te maken.
+
+### 28 sept - Bi-weekly geek 2
+
+Vandaag hebben wij geleerd hoe wij met een screenreader moeten omgaan en hoe belangrijk het is om jouw website toegankelijk te maken. Dit is trouwens ook de wet, dus jouw website moet voldoen aan bepaalde eisen, en dat moeten wij dus ook toepassen aan onze website. Wij hebben tijdens de les ook een beetje kunnen ervaren wat mensen met beperkingen ervaren op een dagelijkse basis, en waarmee zij te maken krijgen als iets niet is ontworpen met hun beperking in gedachten.
+
+Spiekbrief
+Start de screenreader met [Command + fn,f5]
+Een website openen/focus op de address bar [Ctrl + L]
+Scroll up and down [ Up and Down Arrow Keys ]
+Van de ene naar de andere focusable item te navigeren [ Tab ]
+Andere kant op [ Tab + Shift ]
+Een element's state veranderen, of openen en sluiten. Iets selecteren. [ Space ]
+Link of button activeren. Form versturen (geen textarea). [ Enter ]
+Promt annuleren. Dialogs en expanded comboboxes sluiten. [ Esc ]
+
+### 25 sept - W3C validatie
+
+Op deze dag was ik niet bij de les, maar ik heb gepprobeerd dit toch nog thuis te doen.
+Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+
+Welke dingen vielen je op?
+
+Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
+
+Intussen heb ik niet heel veel veranderd aan mijn website. Ik ben nog bezig in illustrator uit te werken hoe mijn pagina uiteindelijk eruit moet zien maar ik vind steeds mijn ideeen maar niets en gooi ze weg.
+
+### 23 sept - Workshop 2
+
+Wat is een wireflow en wat heb je er aan?
+
+Wat zijn dark UX patterns? Geef drie voorbeelden...
+
+Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+
 ### 22 sept - Ontwerpproces
 
 Ik heb gebruik gemaakt van images als achtergrond elementen. Op de home pagina wilde ik een effect krijgen waarbij twee haaien vinnen uit elkaar schoven aan de hand van de grootte van het scherm. Dat lukte mij niet helemaal. De twee vinnen schoven steeds over elkaar heen en wist ik dit niet op te lossen, dus heb ik het voorlopig eruit gelaten en door gewerkt aan de content op mijn website.
 
 Dit was mijn website voorheen
 ![achtergrond-img](./oefeningen/presentatie/images/readme-achtergrond.png)
+Dit was niet de stijl waar ik voor wilde gaan maar ik zag het meer als een tijdelijke stijl tot dat ik de layout van mijn pagina geregeld had. Ik kreeg te horen dat het wel heel belangrijk is dat ik samen met de stijl en decoratie elementen mijn pagina moet inrichten, wat ik wel begrijp, want aan de hand daarvan wil ik bepaalde teksten positioneren.
 
-Ook op de "Depthometer" pagina heb ik een hele lange image gebruikt als achtergrond als gradient, maar besefte ik later dat ik dit ook gewoon met CSS kan.
+Ook op de "Depthometer" pagina heb ik een hele lange image gebruikt als achtergrond als gradient, maar besefte ik later dat ik dit ook gewoon met een CSS gradient kan.
 
 Waarmee ik vaak moeite heb is blijven bij 1 idee. Ik verander steeds van gedachten en heb dan steeds een ander idee voor de stijl van mijn pagina. Maar ik wil wel heel graag door gaan met de stijl die ik op mijn Miro bord staan heb, omdat ik vind dat deze het beste past.
 ![miro-bord1](./oefeningen/presentatie/images/readme-miro.png)
@@ -85,6 +129,11 @@ Welke content en welke HTML heb ik nodig?
 Hoe kan ik dit soort vormen vormgeven?
 
 Wat als ik hier nu eens 1000 invul?
+
+Retrospect opdrachten
+![Retrospect1](./oefeningen/presentatie/images/Retrospect1.png)
+![Retrospect2](./oefeningen/presentatie/images/Retrospect2.png)
+![Retrospect3](./oefeningen/presentatie/images/Retrospect3.png)
 
 ### 17 sept - Thuis werken
 
