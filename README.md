@@ -4,6 +4,43 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 1 okt - Proces
+
+Ik heb vandaag mijn button kleuren aangepast zodat deze wel geschikt en toegankelijk zijn. Ik heb ook meer gradients toegevoed zoals bij de header. Ik ben nog niet tevreden met de stijl van mijn website die ik nu heb, maar ik heb er veel moeite mee om te beslissen wat ik precies wil en ga doen. Voorlopig heb ik nog alleen placeholder images op mijn pagina, maar ga deze gauw vervangen door zelfgemaakte tekeningen die passen bij mijn gewenste stijl.
+
+### 30 sept - WCAG Checklist
+
+Vandaag hebben wij de WCAG checklist gedaan samen met een klasgenoot. Ik heb bij de meeste dingen wel ja kunnen invullen maar er is nog ruimte voor verbetering bij het cintrast van de buttons, de volgorde van de focus links, de grootte van de light/dark buttons zijn niet heel toegankelijk op mobile, ik moet lieve rbuttons gebruiken in mijn navigatie (het zijn links die lijken op buttons).
+Wat ik nog toe kan voegen: skip links, media videos, animaties, audio.
+
+Wij hebben de tests gedaan met de contrast meter:
+![Contrast-meter1](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.16.43.png)
+![Contrast-meter2](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.16.26.png)
+![Contrast-meter3](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.17.04.png)
+
+En de kleurenblindheid simulator:
+![Kleurenblindtest1](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.43.49.png)
+![Kleurenblindtest2](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.44.12.png)
+![Kleurenblindtest3](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.44.21.png)
+
+Checkout
+
+Waar staat WCAG en A11y voor?
+WCAG staat voor Web Content Accessibility Guidelines. Dit is de standaard voor toegankelijkheid van websites die wordt gebruikt door verschillende bedrijven organisaties enz.
+
+A11y staat voor accessibility. de 11 staat voor de aantal letters tussen de a en y. Dit gaat dus ook om toegankelijkheid voor bijvoorbeeld mensen met een beperking. Hier kan je de checklist gebruiken om jouw website toegankelijker te maken.
+
+Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+Ik vind het lastiger om het met een screen reader te bedienen. De screenreader leest wel individuele link, buttons, en heel soms kopteksten maar geen paragraphs.
+Ik moet verder kijken als dit ligt aan mijn html of als ik iets verkeerds doe bij mijn screenreader.
+
+Met welke beperking rekening houden vind je het meest lastig?
+Het lastigs vind ik waarschijnlijk met visuele beperking, doordat mijn screenreader het nu niet doet. Als die het wel normaal deed denk ik niet dat ik verder nog een andere zou kiezen.
+
+Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+Ik vind niet dat ik heel veel beperkt word. Er zijn manieren om eromheen te werken en iets uit te proberen dat werkt voor iedereen.
+
 ### 29 sept - Proces
 
 Ik heb vandaag thuis eindelijk de dark and light mode Deep dive gedaan en mijn website aangepast. Ik heb nu bij dark mode een donkerblauwe achtergrond en lichtblauwe tekst, en bij light mode het omgekeerde. Ook is er daarbij een auto button die aan de hand van jouw apparaat instellingen dark of light mode kiest.
@@ -33,7 +70,9 @@ Promt annuleren. Dialogs en expanded comboboxes sluiten. [ Esc ]
 ### 25 sept - W3C validatie
 
 Op deze dag was ik niet bij de les, maar ik heb gepprobeerd dit toch nog thuis te doen.
+
 Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
+HTML validatie kijkt of jouw code wel goed geschreven is en semantisch correct is. Dit is belangrijk om zeker te weten dat jouw website goed gelezen kan worden en goed functioneert.
 
 Welke dingen vielen je op?
 

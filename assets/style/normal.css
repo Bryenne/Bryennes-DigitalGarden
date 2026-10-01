@@ -16,37 +16,43 @@
 html {
   color-scheme: light dark;
 
-  --background: light-dark(#aee8ff, #1f1f3e);
+  --background: light-dark(#aee8ff, #10103d);
   --color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
 
-  --background-button: light-dark(rgb(45, 240, 84), rgb(255, 180, 51));
+  --background-button: light-dark(rgb(217, 131, 19), rgb(224, 150, 23));
   --color-button: light-dark(white, white);
 
-  --background-a: light-dark(rgb(122, 249, 80), rgb(255, 180, 51));
+  --background-a: light-dark(rgb(152, 1, 190), rgb(0, 193, 190));
   --color-a: light-dark(white, white);
 
   accent-color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
 
   /* Deze informaatie heb ik gehaald van de dark and light mode Deep Dive op DLO */
 
-  /* --background-img: light-dark(
-    url(../assets/images/header-dark.png),
-    url(../assets/images/header-light.png)
-  ); */
+  --background-image: light-dark(
+    linear-gradient(var(--wit), var(--blauw)),
+    linear-gradient(var(--zwart), var(--blauw))
+  );
+  --zwart: black;
+  --blauw: rgb(79, 149, 246);
+  --wit: white;
 
   --whitespace-s: 1rem;
   --whitespace-m: calc(var(--whitespace-s) * 2);
   --whitespace-l: calc(var(--whitespace-s) * 4);
   --whitespace-xs: calc(var(--whitespace-s) * 0.5);
 
-  --step--2: clamp(0.7137rem, 0.6181rem + 0.4777vw, 1.0003rem);
-  --step--1: clamp(0.7615rem, 0.5438rem + 1.0882vw, 1.4144rem);
-  --step-0: clamp(0.8125rem, 0.4167rem + 1.9792vw, 2rem);
-  --step-1: clamp(0.8669rem, 0.2133rem + 3.2684vw, 2.828rem);
-  --step-2: clamp(0.925rem, -0.0996rem + 5.1229vw, 3.9988rem);
-  --step-3: clamp(0.987rem, -0.5688rem + 7.7788vw, 5.6543rem);
-  --step-4: clamp(1.0531rem, -1.2609rem + 11.5701vw, 7.9952rem);
-  --step-5: clamp(1.1237rem, -2.2701rem + 16.9691vw, 11.3052rem);
+  --step--5: clamp(0.55rem, 0.5rem + 0.25vw, 0.7rem);
+  --step--4: clamp(0.6rem, 0.54rem + 0.3vw, 0.78rem);
+  --step--3: clamp(0.66rem, 0.58rem + 0.4vw, 0.9rem);
+  --step--2: clamp(0.72rem, 0.63rem + 0.48vw, 1rem);
+  --step--1: clamp(0.78rem, 0.68rem + 0.6vw, 1.15rem);
+  --step-0: clamp(0.85rem, 0.73rem + 0.75vw, 1.3rem);
+  --step-1: clamp(0.95rem, 0.8rem + 1vw, 1.6rem);
+  --step-2: clamp(1.1rem, 0.9rem + 1.4vw, 2rem);
+  --step-3: clamp(1.3rem, 1rem + 1.9vw, 2.5rem);
+  --step-4: clamp(1.55rem, 1.15rem + 2.5vw, 3.2rem);
+  --step-5: clamp(1.85rem, 1.3rem + 3.2vw, 4rem);
 }
 
 html:has([value="light-theme"]:checked) {
@@ -98,9 +104,7 @@ body {
 }
 
 header {
-  background-image: url(../images/header-dark.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: var(--background-image);
 
   grid-area: header;
   display: grid;
@@ -126,9 +130,11 @@ aside {
   margin-top: 4em;
   margin-left: 1em;
   padding-left: 1em;
-  border: 0.2em solid grey;
+  border: 0.2em solid rgb(128, 128, 128);
   border-radius: 1em;
   padding-bottom: var(--whitespace-m);
+  max-width: 15em;
+  min-width: 12em;
 }
 
 footer {
@@ -157,7 +163,7 @@ header article {
   grid-column: 1/-1;
 }
 
-header article article {
+header article li {
   display: grid;
   align-items: center;
   margin: 1em;
@@ -221,6 +227,28 @@ img {
   margin-bottom: var(--whitespace-m);
 }
 
+button {
+  color: var(--color-a);
+  background-color: var(--background-a);
+  border: 0.2em solid var(--color-a);
+  border-radius: 0.5em;
+  font-family: SyneMono;
+  padding: 0.4em;
+  font-size: var(--step--1);
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(215, 91, 215);
+  border: 0.3em solid;
+}
+
+button:focus {
+  background-color: rgb(244, 161, 61);
+  border: 0.3em solid;
+}
+
 p a {
   background-color: transparent;
   border: none;
@@ -245,9 +273,8 @@ a {
 }
 
 a:focus {
-  background-color: rgb(0, 110, 122);
-  border: 0.3em solid rgb(156, 209, 255);
-  transform: scale(1.1);
+  background-color: rgb(244, 161, 61);
+  border: 0.3em solid;
 }
 
 a:active {
@@ -255,7 +282,8 @@ a:active {
 }
 
 a:hover {
-  background-color: rgb(27, 181, 27);
+  background-color: rgb(215, 91, 215);
+  border: 0.3em solid;
 }
 
 /* a:visited {
