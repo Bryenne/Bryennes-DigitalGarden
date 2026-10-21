@@ -193,6 +193,7 @@ dialog {
   max-width: 80%;
   border-radius: 1em;
   box-shadow: #000000 0em 10em 10em;
+  margin-top: 10em;
 }
 /* MARK: Header elementen */
 header article {
