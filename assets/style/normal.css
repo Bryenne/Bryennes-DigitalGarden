@@ -16,8 +16,11 @@
 html {
   color-scheme: light dark;
 
-  --background: light-dark(#aee8ff, #10103d);
+  --background: light-dark(#fefefe, #000000);
   --color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
+
+  --background-header: light-dark(rgb(211, 192, 255), black);
+  --color-header: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
 
   --background-button: light-dark(rgb(217, 131, 19), rgb(224, 150, 23));
   --color-button: light-dark(white, white);
@@ -25,14 +28,16 @@ html {
   --background-a: light-dark(rgb(152, 1, 190), rgb(0, 193, 190));
   --color-a: light-dark(white, white);
 
+  --background-nav: light-dark(rgb(236, 225, 255), rgb(174, 232, 255));
+
   accent-color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
 
   /* Deze informaatie heb ik gehaald van de dark and light mode Deep Dive op DLO */
 
-  --background-image: light-dark(
+  /* --background-image: light-dark(
     linear-gradient(var(--wit), var(--blauw)),
     linear-gradient(var(--zwart), var(--blauw))
-  );
+  ); */
   --zwart: black;
   --blauw: rgb(79, 149, 246);
   --wit: white;
@@ -42,17 +47,17 @@ html {
   --whitespace-l: calc(var(--whitespace-s) * 4);
   --whitespace-xs: calc(var(--whitespace-s) * 0.5);
 
-  --step--5: clamp(0.55rem, 0.5rem + 0.25vw, 0.7rem);
-  --step--4: clamp(0.6rem, 0.54rem + 0.3vw, 0.78rem);
-  --step--3: clamp(0.66rem, 0.58rem + 0.4vw, 0.9rem);
-  --step--2: clamp(0.72rem, 0.63rem + 0.48vw, 1rem);
-  --step--1: clamp(0.78rem, 0.68rem + 0.6vw, 1.15rem);
-  --step-0: clamp(0.85rem, 0.73rem + 0.75vw, 1.3rem);
-  --step-1: clamp(0.95rem, 0.8rem + 1vw, 1.6rem);
-  --step-2: clamp(1.1rem, 0.9rem + 1.4vw, 2rem);
-  --step-3: clamp(1.3rem, 1rem + 1.9vw, 2.5rem);
-  --step-4: clamp(1.55rem, 1.15rem + 2.5vw, 3.2rem);
-  --step-5: clamp(1.85rem, 1.3rem + 3.2vw, 4rem);
+  --step--5: clamp(0.55rem, 0.5rem + 0.2vw, 0.65rem);
+  --step--4: clamp(0.6rem, 0.54rem + 0.25vw, 0.72rem);
+  --step--3: clamp(0.66rem, 0.58rem + 0.3vw, 0.82rem);
+  --step--2: clamp(0.72rem, 0.63rem + 0.35vw, 0.9rem);
+  --step--1: clamp(0.78rem, 0.68rem + 0.45vw, 1rem);
+  --step-0: clamp(0.85rem, 0.73rem + 0.55vw, 1.1rem);
+  --step-1: clamp(0.95rem, 0.8rem + 0.7vw, 1.3rem);
+  --step-2: clamp(1.1rem, 0.9rem + 0.9vw, 1.6rem);
+  --step-3: clamp(1.3rem, 1rem + 1.2vw, 2rem);
+  --step-4: clamp(1.55rem, 1.15rem + 1.6vw, 2.5rem);
+  --step-5: clamp(1.85rem, 1.3rem + 2vw, 3rem);
 }
 
 html:has([value="light-theme"]:checked) {
@@ -71,6 +76,8 @@ body {
   font-size: var(--step--1);
   font-family: SyneMono;
   background-color: var(--background);
+  background-image: url(../images/achtergrond-effect.png);
+  background-size: 100%;
   color: var(--color);
   width: 100%;
   height: 100vh;
@@ -82,10 +89,9 @@ body {
   background-size: 50%; */
 
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
   grid-template-areas:
     "header"
+    "nav"
     "aside"
     "main"
     "footer";
@@ -94,9 +100,10 @@ body {
 @media (width>30em) {
   body {
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
       "header header header"
+      "nav nav nav         "
       "aside main .        "
       ".     main .        "
       "footer footer footer";
@@ -104,18 +111,43 @@ body {
 }
 
 header {
-  background-image: var(--background-image);
-
   grid-area: header;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+  background-color: var(--background-header);
+  color: var(--color-header);
+
   margin: 0;
-  margin-bottom: 2em;
   max-width: 100%;
   padding-top: 0.5em;
   padding-right: 1em;
   padding-bottom: 1em;
+}
+
+body > nav {
+  grid-area: nav;
+  background-color: var(--background-nav);
+  margin: 0;
+  padding: 0.7em;
+}
+
+body > nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+body > nav ul li a {
+  color: rgb(37, 88, 127);
+  text-decoration: none;
+}
+
+body > nav ul li a:hover {
+  color: rgb(14, 39, 85);
+  text-decoration: underline;
 }
 
 main {
@@ -151,10 +183,13 @@ footer {
 }
 
 dialog {
-  &::backdrop {
+  /* &::backdrop {
     background-color: rgba(0, 0, 0, 0.411);
-    backdrop-filter: blur(2px);
-  }
+    backdrop-filter: blur(5px);
+  } */
+  max-width: 80%;
+  border-radius: 1em;
+  box-shadow: #000000 0em 10em 10em;
 }
 
 header article {
@@ -171,7 +206,6 @@ header article li {
 
 header h2 {
   grid-column: 1/-1;
-  width: 18ch;
   text-align: center;
   place-self: center;
 }
@@ -187,7 +221,16 @@ main article:not(:first-of-type) {
   margin-top: 5em;
 }
 
+label {
+  margin-bottom: 0.5em;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
 h1 {
+  color: var(--color-header);
   font-size: var(--step-2);
   margin-right: var(--whitespace-xs);
   text-align: end;
@@ -213,7 +256,8 @@ ul {
   padding: 0;
 }
 
-ul li {
+main ul li,
+footer ul li {
   margin-top: var(--whitespace-m);
 }
 
@@ -230,7 +274,7 @@ img {
 button {
   color: var(--color-a);
   background-color: var(--background-a);
-  border: 0.2em solid var(--color-a);
+  border: 0.2em solid;
   border-radius: 0.5em;
   font-family: SyneMono;
   padding: 0.4em;
@@ -240,8 +284,9 @@ button {
 }
 
 button:hover {
-  background-color: rgb(215, 91, 215);
+  background-color: rgb(201, 118, 40);
   border: 0.3em solid;
+  cursor: pointer;
 }
 
 button:focus {
@@ -249,18 +294,8 @@ button:focus {
   border: 0.3em solid;
 }
 
-p a {
-  background-color: transparent;
-  border: none;
-  text-decoration: underline;
-}
-
-p a:hover {
-  background-color: transparent;
-  color: green;
-}
-
-a {
+main a,
+footer a {
   color: var(--color-a);
   background-color: var(--background-a);
   border: 0.2em solid var(--color-a);
@@ -272,16 +307,17 @@ a {
   text-decoration: none;
 }
 
-a:focus {
+main a:focus,
+footer a:focus {
   background-color: rgb(244, 161, 61);
   border: 0.3em solid;
 }
 
-a:active {
+main a:active footer a:active {
   background-color: rgb(109, 139, 80);
 }
 
-a:hover {
+main a:hover footer a:hover {
   background-color: rgb(215, 91, 215);
   border: 0.3em solid;
 }

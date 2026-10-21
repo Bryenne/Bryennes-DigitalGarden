@@ -4,6 +4,57 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 12-16 okt
+
+Ik begin met het aanpassen van de stijl van mijn pagina.
+
+Als eerste heb ik mijn tekst grootte aangepast en iets kleiner gemaakt, omdat deze te groot was op computer schermen. Daarna heb ik een achtergrond gemaakt in photoshop en deze aan mijn pagina toegevoegd. Ik heb ook mijn header een kleur gegeven en een navigatiebalk toegevoegd die precies onder aan de header staat. Ik vond de navigatie in mijn aside niet heel handig en zag er niet super leuk uit. Ik wil in mijn aside misschien leuke animaties en tips toevoegen ofzo.
+
+Verder heb ik de kleuren van mijn website veranderd. Bij light mode is de achtergrond wit met donkerblauwe tekst en bij dark mode zwart met licht blauwe tekst, en daarop is dan nog mijn zelfgemaakte transparante achtergrond te zien.
+
+### 9 okt - Checkout
+
+### 7 okt - Checkout
+
+Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+Voor de ontwerper:
+
+Voor de bezoeker: Het ziet er visueel aantrekkelijker uit. Kan voor meer overzicht zorgen.
+
+Noem drie manieren om chaos in je ontwerp te voorkomen.
+Je ontwerp dynamisch te maken maar nogsteeds samenhangend. Gebruik een consistente stijl en laat het allemaal bij elkaar passen. Gebruik niet teveel van iets maar ook niet teveel van allerlei verschillende dingen. Gebruik een goed contrast om onderscheid te maken.
+
+Hoeveel gekkigheid moet er in je werk zitten?
+Er mag eigenlijk zoveel gekkigheid in zitten als je wilt, zolang het correct is en voldoet aan de regels van ontwerpen, het duidelijk is en toegankelijk blijft.
+
+### 5 okt - Checkout de regels en het spel
+
+Leg de volgende termen uit:
+Kerning
+Tracking
+Leading
+Flush-left
+Flush-right
+Centered
+Justified
+Indent
+Outdent
+Modular scale
+Movable type
+Focus punt
+Vijf soorten contrast
+spatial tension
+
+Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+
+Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+
+### 2 okt - Feedback
+
+Cookies button moet iets doen als je de cookies niet accepteert, bijvoorbeeld dat je de pagina dan niet kunt gebruiken.
+Mijn eigen stijl nog toepassen bij mijn website.
+Nog een keer checken met de contrast test en kleurenblinde test na het toepassen van mijn stijl.
+
 ### 1 okt - Proces
 
 Ik heb vandaag mijn button kleuren aangepast zodat deze wel geschikt en toegankelijk zijn. Ik heb ook meer gradients toegevoed zoals bij de header. Ik ben nog niet tevreden met de stijl van mijn website die ik nu heb, maar ik heb er veel moeite mee om te beslissen wat ik precies wil en ga doen. Voorlopig heb ik nog alleen placeholder images op mijn pagina, maar ga deze gauw vervangen door zelfgemaakte tekeningen die passen bij mijn gewenste stijl.

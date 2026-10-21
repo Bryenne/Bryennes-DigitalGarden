@@ -19,23 +19,20 @@ html {
   --whitespace-xl: calc(var(--whitespace-s) * 10);
   --whitespace-xs: calc(var(--whitespace-s) * 0.5);
 
-  --step--5: clamp(0.55rem, 0.5rem + 0.25vw, 0.7rem);
-  --step--4: clamp(0.6rem, 0.54rem + 0.3vw, 0.78rem);
-  --step--3: clamp(0.66rem, 0.58rem + 0.4vw, 0.9rem);
-  --step--2: clamp(0.72rem, 0.63rem + 0.48vw, 1rem);
-  --step--1: clamp(0.78rem, 0.68rem + 0.6vw, 1.15rem);
-  --step-0: clamp(0.85rem, 0.73rem + 0.75vw, 1.3rem);
-  --step-1: clamp(0.95rem, 0.8rem + 1vw, 1.6rem);
-  --step-2: clamp(1.1rem, 0.9rem + 1.4vw, 2rem);
-  --step-3: clamp(1.3rem, 1rem + 1.9vw, 2.5rem);
-  --step-4: clamp(1.55rem, 1.15rem + 2.5vw, 3.2rem);
-  --step-5: clamp(1.85rem, 1.3rem + 3.2vw, 4rem);
+  --step--5: clamp(0.55rem, 0.5rem + 0.2vw, 0.65rem);
+  --step--4: clamp(0.6rem, 0.54rem + 0.25vw, 0.72rem);
+  --step--3: clamp(0.66rem, 0.58rem + 0.3vw, 0.82rem);
+  --step--2: clamp(0.72rem, 0.63rem + 0.35vw, 0.9rem);
+  --step--1: clamp(0.78rem, 0.68rem + 0.45vw, 1rem);
+  --step-0: clamp(0.85rem, 0.73rem + 0.55vw, 1.1rem);
+  --step-1: clamp(0.95rem, 0.8rem + 0.7vw, 1.3rem);
+  --step-2: clamp(1.1rem, 0.9rem + 0.9vw, 1.6rem);
+  --step-3: clamp(1.3rem, 1rem + 1.2vw, 2rem);
+  --step-4: clamp(1.55rem, 1.15rem + 1.6vw, 2.5rem);
+  --step-5: clamp(1.85rem, 1.3rem + 2vw, 3rem);
 
   --blauw: rgb(161, 235, 255);
   --zwart: black;
-
-  --luchtblauw: rgb(116, 243, 255);
-  --donkerblauw: rgb(17, 82, 173);
 }
 
 body {
@@ -46,13 +43,41 @@ body {
 }
 
 header {
-  background-image: linear-gradient(var(--luchtblauw), var(--donkerblauw));
+  background-image: url(../images/achtergrond-effect.png);
+  background-color: black;
+  background-size: 100%;
   margin: 0;
   max-width: 100%;
   padding-top: 0.5em;
   padding-right: 1em;
   display: grid;
   place-items: end;
+}
+
+nav {
+  grid-area: nav;
+  background-color: var(--background-nav);
+  margin: 0;
+  padding: 0.7em;
+}
+
+body > nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+body > nav ul li a {
+  color: rgb(37, 88, 127);
+  text-decoration: none;
+  list-style: none;
+}
+
+body > nav ul li a:hover {
+  color: rgb(14, 39, 85);
+  text-decoration: underline;
 }
 
 main {
@@ -78,7 +103,7 @@ h1 {
   text-align: end;
   font-family: Slackey;
   width: min-content;
-  color: rgb(13, 13, 32);
+  color: white;
 }
 
 h2 {
