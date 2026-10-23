@@ -4,6 +4,20 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 21 okt
+
+Vandaag tijdens de feedback kreeg ik te horen dat ik mijn kopjes iets groter kan maken, animaties en meer transities toe moet voegen, mijn grid een beetje aanpassen om het interessanter te maken. Ook nog mijn lyrics pagina moest ik nog koppelen aan mijn digital garden en stylen.
+
+![Peerfeedbackformulier1](./oefeningen/presentatie/images/peerfeedbackformulier1.png)
+![Peerfeedbackformulier2](./oefeningen/presentatie/images/peerfeedbackformulier2.png)
+
+Ik heb vandaag de kopjes al iets groter gemaakt, misschien geef ik deze ook nog een andere kleur om meer hierarchie en onderscheid te kunnen maken tussen de paragraphs en de kopteksten. Ik heb verder wat schetsen gemaakt die mijn nieuwe inspiratie zijn. Ook heb ik besloten een logo te ontwerpen die ik boven aan de pagina, eigenlijk net als een h1 heb geplaatst.
+
+![LogoSchets](./oefeningen/presentatie/images/logoschets.png)
+![InspiratieSchets](./oefeningen/presentatie/images/nieuweschetsen.png)
+
+Ik wil dus een sideways tekst hebben aan de zijkanten van mijn pagina, en de images wil ik graag een scroll animation geven, dat deze groter worden naarmate je meer naar onder scrollt, en vervolgens weer kleiner wanneer je er verder van weg scrollt. Ik prioriteer wel eerst de grid. Ik wil dat de sideways teksten overlappen met de middelste kolom en een 50% opacity hebben zodat het niet verwarrend wordt om te lezen.
+
 ### 12-16 okt
 
 Ik begin met het aanpassen van de stijl van mijn pagina.

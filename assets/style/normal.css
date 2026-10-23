@@ -152,6 +152,8 @@ body > nav ul li a:hover {
 }
 
 main {
+  scroll-timeline: --maintimeline;
+
   grid-area: main;
   max-width: 80%;
   margin: auto;
