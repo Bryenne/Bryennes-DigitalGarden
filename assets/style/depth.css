@@ -145,11 +145,11 @@ img {
   display: grid;
   place-self: center;
   margin: 3em;
+  transition-duration: 1s;
 }
 
 img:hover {
   transform: scale(1.2);
-  transition-duration: 1s;
 }
 
 article:nth-of-type(1) {
