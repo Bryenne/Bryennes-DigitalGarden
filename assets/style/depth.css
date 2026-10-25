@@ -42,6 +42,27 @@ body {
   background-image: linear-gradient(var(--blauw), var(--zwart));
 }
 
+body > nav ul {
+  display: flex;
+  justify-content: center;
+  gap: var(--step--2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--step-1);
+  font-family: Synemono;
+}
+
+body > nav ul li a {
+  color: rgb(133, 220, 255);
+  text-decoration: none;
+}
+
+body > nav ul li a:hover {
+  color: rgb(246, 249, 255);
+  text-decoration: underline;
+}
+
 header {
   background-image: url(../images/achtergrond-effect.png);
   background-color: black;
@@ -56,32 +77,17 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: var(--background-nav);
+  background-color: rgb(2, 10, 33);
   margin: 0;
-  padding: 0.7em;
-}
-
-body > nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 5em;
-  margin: 0;
-  padding: 0;
-}
-
-body > nav ul li a {
-  color: rgb(37, 88, 127);
-  text-decoration: none;
-  list-style: none;
-}
-
-body > nav ul li a:hover {
-  color: rgb(14, 39, 85);
-  text-decoration: underline;
+  padding: 0.5em;
 }
 
 main {
   text-align: center;
+}
+
+main a {
+  text-decoration: none;
 }
 
 footer {
@@ -89,7 +95,6 @@ footer {
   display: grid;
   place-items: center;
   background-color: black;
-  color: white;
   border-top: 1em rgb(24, 24, 24) solid;
   background-image: url(../images/footer-image.png);
   background-size: 100%;
@@ -103,14 +108,14 @@ h1 {
   text-align: end;
   font-family: Slackey;
   width: min-content;
-  color: white;
+  color: rgb(133, 220, 255);
 }
 
 h2 {
-  margin-top: 9em;
-  font-size: var(--step-1);
+  margin-top: 6em;
+  font-size: var(--step-3);
   font-family: Slackey;
-  color: white;
+  color: rgb(2, 10, 33);
 }
 
 h3 {
@@ -125,15 +130,26 @@ p {
   place-self: center;
 }
 
-a {
-  color: darkblue;
+p :first-of-type {
+  color: rgb(2, 10, 33);
+}
+
+main a {
+  color: rgb(2, 10, 33);
   font-family: SyneMono;
 }
 
 img {
-  width: 30%;
+  width: 50%;
+  min-width: 17em;
   display: grid;
   place-self: center;
+  margin: 3em;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 
 article:nth-of-type(1) {
@@ -167,4 +183,16 @@ article:nth-of-type(7) {
 
 article:nth-of-type(8) {
   margin-bottom: 0;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: rgb(133, 220, 255);
 }

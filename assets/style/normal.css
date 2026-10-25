@@ -1,4 +1,4 @@
-/* HIER KOMT JOUW CSS */
+/* MARK: Font face */
 @font-face {
   font-family: "Slackey";
   src: url(../type/Slackey-Regular.ttf);
@@ -13,14 +13,17 @@
   font-style: normal;
 }
 
+/* MARK: Html */
 html {
   color-scheme: light dark;
 
   --background: light-dark(#fefefe, #000000);
   --color: light-dark(rgb(13, 13, 32), #aee8ff);
 
-  --background-header: light-dark(rgb(211, 192, 255), black);
+  --background-header: light-dark(rgb(119, 91, 187), black);
   --color-header: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
+
+  --color-h1: light-dark(rgb(211, 192, 255), black);
 
   --background-button: light-dark(rgb(217, 131, 19), rgb(224, 150, 23));
   --color-button: light-dark(white, white);
@@ -30,14 +33,12 @@ html {
 
   --background-nav: light-dark(rgb(236, 225, 255), rgb(133, 220, 255));
 
+  --color-strong: light-dark(rgb(82, 25, 180), rgb(240, 160, 81));
+
   accent-color: light-dark(rgb(13, 13, 32), rgb(174, 232, 255));
 
-  /* Deze informaatie heb ik gehaald van de dark and light mode Deep Dive op DLO */
+  /* Deze informaatie heb ik gehaald uit de dark and light mode Deep Dive op DLO */
 
-  /* --background-image: light-dark(
-    linear-gradient(var(--wit), var(--blauw)),
-    linear-gradient(var(--zwart), var(--blauw))
-  ); */
   --zwart: black;
   --blauw: rgb(79, 149, 246);
   --wit: white;
@@ -72,6 +73,7 @@ html:has(dialog:open) {
   overflow-y: clip;
 }
 
+/* MARK: Body */
 body {
   font-size: var(--step--1);
   font-family: SyneMono;
@@ -83,37 +85,40 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  /* background: url(../images/fin-top-gray.png);
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 50%; */
 
   display: grid;
   grid-template-areas:
     "header"
     "nav"
-    "aside"
     "main"
+    "aside"
     "footer";
 }
 
 @media (width>30em) {
   body {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto 1fr 10%;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
       "header header header"
       "nav nav nav         "
       "aside main .        "
-      ".     main .        "
+      ".     main .       "
       "footer footer footer";
+    aside {
+      writing-mode: vertical-lr;
+    }
+    aside h1 {
+      color: var(--color-h1);
+    }
   }
 }
+/* Deze informatie heb ik gehaald uit de verschillende Grid Deep Dives op DLO */
 
+/* MARK: Header */
 header {
   grid-area: header;
-  display: grid;
-  grid-template-columns: auto 1fr 1fr;
+  grid-template-columns: auto 1fr;
   align-items: center;
 
   background-color: var(--background-header);
@@ -121,10 +126,12 @@ header {
 
   margin: 0;
   max-width: 100%;
+  max-height: 12em;
   padding-top: 0.5em;
   padding-bottom: 1em;
 }
 
+/* MARK: Nav */
 body > nav {
   grid-area: nav;
   background-color: var(--background-nav);
@@ -133,6 +140,49 @@ body > nav {
   padding: 0.7em;
 }
 
+/* MARK: Main */
+main {
+  grid-area: main;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: var(--whitespace-m);
+}
+
+/* MARK: Aside */
+aside {
+  grid-area: aside;
+  writing-mode: horizontal-tb;
+  margin: 0;
+  max-width: 15em;
+  z-index: -1;
+  /* Op de MDN website heb ik gekeken hoe ik mijn aside onder de dialog krijg, in plaats van dat die erover heen loopt en de cookies button onklikbaar maakt op de mobiele versie. */
+}
+
+aside h1 {
+  font-size: 15vw;
+  font-family: Slackey;
+  margin: 0;
+  color: transparent;
+  opacity: 0.5;
+  pointer-events: none; /* google gevraagd hoe ik de tekst genegeerd kan laten worden door de muis */
+}
+
+/* MARK: Footer */
+footer {
+  grid-area: footer;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  color: white;
+  border-top: 1em rgb(24, 24, 24) solid;
+  background-image: url(../images/footer-image.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5em;
+}
+
+/* MARK: Body ul & a */
 body > nav ul {
   display: flex;
   justify-content: center;
@@ -151,55 +201,18 @@ body > nav ul li a:hover {
   text-decoration: underline;
 }
 
-main {
-  scroll-timeline: --maintimeline;
-
-  grid-area: main;
-  max-width: 80%;
-  margin: auto;
-  padding-bottom: var(--whitespace-m);
-}
-
-aside {
-  grid-area: aside;
-  writing-mode: sideways-lr;
-  margin: 0;
-  max-width: 15em;
-}
-
-aside h2 {
-  font-size: 15vw;
-  margin: 0;
-  color: rgb(0, 0, 0);
-  opacity: 0.5;
-}
-
-footer {
-  grid-area: footer;
-  display: grid;
-  place-items: center;
-  background-color: black;
-  color: white;
-  border-top: 1em rgb(24, 24, 24) solid;
-  background-image: url(../images/footer-image.png);
-  background-size: 120%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
+/* MARK: Dialog */
 dialog {
-  /* &::backdrop {
-    background-color: rgba(0, 0, 0, 0.411);
-    backdrop-filter: blur(5px);
-  } */
   max-width: 80%;
   border-radius: 1em;
   box-shadow: #000000 0em 10em 10em;
-  margin-top: 10em;
+  margin-top: 10%;
 }
+
 /* MARK: Header elementen */
 header article {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 header article li {
@@ -211,7 +224,7 @@ header article li {
 header img {
   grid-column: 2;
   justify-self: center;
-  width: 40%;
+  width: 35%;
 }
 
 main article:not(:first-of-type) {
@@ -225,15 +238,8 @@ label {
 label:hover {
   cursor: pointer;
 }
-/* MARK: H1 */
-/* h1 {
-  color: var(--color-header);
-  font-size: var(--step-2);
-  margin-right: var(--whitespace-xs);
-  font-family: Slackey;
-  width: min-content;
-} */
 
+/* MARK: H2 */
 h2 {
   margin-bottom: var(--whitespace-s);
   font-size: var(--step-3);
@@ -241,10 +247,40 @@ h2 {
   margin-right: 0.5em;
 }
 
+/* MARK: p & strong */
 p {
   margin-top: var(--whitespace-m);
 }
 
+strong {
+  color: var(--color-strong);
+}
+
+/* MARK: Main elementen */
+/* Ik heb hier (en ook bij de volgende animaties) een id gebruikt specifiek zodat ik de animatie erop kon zetten */
+#waaromP {
+  color: var(--color-strong);
+  margin-top: 5em;
+  margin-bottom: 5em;
+  animation: waaromP both;
+  animation-timeline: view(80% 5%);
+}
+
+@keyframes waaromP {
+  from {
+    opacity: 0;
+    scale: 0.8;
+    translate: 0 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+/* MARK: Main & footer ul li */
 ul {
   list-style: none;
   margin: 0;
@@ -256,6 +292,12 @@ footer ul li {
   margin-top: var(--whitespace-m);
 }
 
+footer ul li {
+  display: grid;
+  place-items: center;
+}
+
+/* MARK: img */
 img {
   display: grid;
   width: 80%;
@@ -266,6 +308,51 @@ img {
   margin-bottom: var(--whitespace-m);
 }
 
+#imageSlideL {
+  padding: 1em;
+  padding-bottom: 2em;
+
+  animation: imageSlideL both;
+  animation-timeline: view(60% 10%);
+}
+
+@keyframes imageSlideL {
+  from {
+    opacity: 0;
+    scale: 0.5;
+    translate: 80% 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1.4;
+    translate: 0 0;
+  }
+}
+
+#imageSlideR {
+  padding: 1em;
+  padding-bottom: 2em;
+
+  animation: imageSlideR both;
+  animation-timeline: view(60% 10%);
+}
+
+@keyframes imageSlideR {
+  from {
+    opacity: 0;
+    scale: 0.5;
+    translate: -80% 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1.4;
+    translate: 0 0;
+  }
+}
+
+/* MARK: Buttons & a */
 button {
   color: var(--color-a);
   background-color: var(--background-a);
@@ -308,11 +395,13 @@ footer a:focus {
   border: 0.3em solid;
 }
 
-main a:active footer a:active {
+main a:active,
+footer a:active {
   background-color: rgb(109, 139, 80);
 }
 
-main a:hover footer a:hover {
+main a:hover,
+footer a:hover {
   background-color: rgb(215, 91, 215);
   border: 0.3em solid;
 }
@@ -322,8 +411,3 @@ main a:hover footer a:hover {
   border-color: green;
   color: green;
 } */
-
-footer ul li {
-  display: grid;
-  place-items: center;
-}

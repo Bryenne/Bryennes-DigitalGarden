@@ -8,6 +8,13 @@
 @font-face {
   font-family: "Seraphs";
   src: url(../type/SeraphsVF.woff2);
+  font-weight: 150;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Seraphs";
+  src: url(../type/SeraphsVF.woff2);
   font-weight: 400;
   font-style: normal;
 }
@@ -19,9 +26,15 @@
   font-style: normal;
 }
 
+body {
+  background-color: beige;
+}
+
 main {
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: Seraphs;
+  font-weight: 100;
+  font-size: 4vw;
   margin: 0;
   padding: 0;
 
@@ -30,27 +43,48 @@ main {
     "h1"
     "h21"
     "h22"
+    "h23"
+    "h24"
+    "h25"
+    "one"
+    "two"
     "p1"
     "p2"
     "p3"
     "p4"
     "p5"
-    "p6";
+    "p6"
+    "p7"
+    "p8"
+    "p9"
+    "p10"
+    "p11"
+    "p12";
 }
 
 @media (width>30em) {
   main {
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: 18vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto auto auto auto auto auto 1fr auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-areas:
-      "h1 p1 p1 p1 p1"
+      ". p1 p1 p1 p1  "
+      "h1 . one two .   "
       "h1 h21 h21 h21 . "
-      "h1 . p2 p2 p2"
-      "h1 . p3 p3 p3  "
-      "h1 p4 p4 p4 p4"
-      ". . h22 h22 ."
-      ". p5 p5 p5 .  "
-      "p6 p6 p6 . .  ";
+      "h1 . p2 p2 p2    "
+      "h1 p3 p3 p3 p3    "
+      "h1 p4 p4 p4 p4   "
+      "h1 p5 . h22 h22  "
+      "h1 p6 p6 p6 .    "
+      ". . p7 p7 p7     "
+      ". . p7 p7 p7     "
+      "p8 p8 p8 p8 .    "
+      "p9 p9 p9 . .     "
+      ". . p10 p10 p10  "
+      "h23 h23 . . .    "
+      ". h24 h24 h24 .  "
+      ". . p11 p11 p11  "
+      ". . p12 p12 p12 "
+      ". . . h25 h25   ";
   }
 }
 
@@ -61,7 +95,7 @@ h1 {
   font-size: 13vw;
   margin: 0;
   writing-mode: sideways-lr;
-  background-color: transparent;
+  transition: 1s;
 }
 
 h1:hover {
@@ -69,7 +103,7 @@ h1:hover {
 
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-  transform: scaleX(1.5);
+  font-size: 14vw;
 }
 
 @keyframes shake {
@@ -104,7 +138,7 @@ h1:hover {
     transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
-    transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(2px, 2px) rotate(0deg);
   }
 }
 /* bron: https://www.w3schools.com/howto/howto_css_shake_image.asp */
@@ -112,43 +146,230 @@ h1:hover {
 h2 {
   font-family: Seraphs;
   font-weight: 400;
-  font-size: 8cqi;
+  font-size: 7vw;
   margin: 0;
 }
 
 #h21 {
   grid-area: h21;
+  transition: 0.5s;
 }
 
 #h21:hover {
   color: rgb(146, 9, 9);
+  font-size: 9vw;
 }
 
 #h22 {
   grid-area: h22;
+  font-size: 6vw;
+  align-self: center;
+  place-self: center;
+}
+
+#h23 {
+  grid-area: h23;
+}
+
+#h24 {
+  grid-area: h24;
+}
+
+#h25 {
+  grid-area: h25;
+  display: inline-block;
+  margin-top: 3em;
+}
+
+#h25:hover::after {
+  content: "";
+  animation: exclamate 6s linear forwards;
+}
+
+@keyframes exclamate {
+  0% {
+    content: " want you want you want you ";
+  }
+  30% {
+    content: " want you!!! want you want you ";
+  }
+  60% {
+    content: " want you!!! want you!!! want you ";
+  }
+  90%,
+  100% {
+    content: " want you!!! want you!!! want you!!! ";
+  }
 }
 
 p {
-  font-size: 4cqi;
+  font-size: 3vw;
   margin: 0;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
 }
 
 #p1 {
   grid-area: p1;
-  font-size: 5.5vw;
+  opacity: 0.7;
+  font-size: 5vw;
+  font-weight: 150;
+  white-space: nowrap;
+  animation: blink 5s forwards;
+  animation-iteration-count: infinite;
 }
+/* bron: https://www.w3schools.com/cssref/pr_text_white-space.php */
+
+@keyframes blink {
+  0% {
+    color: black;
+  }
+
+  10% {
+    color: transparent;
+  }
+
+  20% {
+    color: rgb(146, 9, 9);
+  }
+
+  30% {
+    color: transparent;
+  }
+
+  40% {
+    color: black;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  60% {
+    color: rgb(10, 81, 10);
+  }
+
+  70% {
+    color: transparent;
+  }
+
+  80% {
+    color: black;
+  }
+
+  90% {
+    color: transparent;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
 #p2 {
   grid-area: p2;
 }
+
 #p3 {
   grid-area: p3;
 }
+
 #p4 {
   grid-area: p4;
 }
+
 #p5 {
   grid-area: p5;
+  align-self: center;
+  place-self: center;
+  font-weight: 400;
+  font-size: 5vw;
+  transition: 0.5s;
 }
+
+#p5:hover {
+  animation:
+    shake 0.2s ease-in-out 5,
+    crash 0.7s ease-in forwards;
+}
+
+@keyframes crash {
+  0% {
+    font-size: 5vw;
+  }
+
+  20% {
+    color: rgb(212, 0, 0);
+  }
+
+  50% {
+    font-size: 12vw;
+  }
+
+  80% {
+    color: rgb(212, 0, 0);
+  }
+
+  100% {
+    font-size: 5vw;
+  }
+}
+
 #p6 {
   grid-area: p6;
+  font-weight: 200;
+}
+
+#p7 {
+  grid-area: p7;
+}
+
+#p8 {
+  grid-area: p8;
+}
+
+#p9 {
+  grid-area: p9;
+}
+
+#p10 {
+  grid-area: p10;
+}
+
+#p11 {
+  grid-area: p11;
+  margin-top: 1em;
+}
+
+#p12 {
+  grid-area: p12;
+  margin-top: 1em;
+}
+
+#achtergrond {
+  z-index: -1;
+  writing-mode: sideways-rl;
+  position: absolute;
+  right: 5vw;
+  top: 20vw;
+  font-size: 20vw;
+  font-weight: 600;
+  opacity: 0.3;
+  pointer-events: none; /* google gevraagd hoe ik de tekst genegeerd kan laten worden door de muis zodat die niet in de weg staat van hovers */
+}
+
+strong {
+  text-shadow: 0 0.2em 0.5em;
+  transition: 0.5s ease-in-out;
+}
+
+strong:hover {
+  font-size: 5vw;
+  text-shadow: 0 0.3em 0.7em;
 }

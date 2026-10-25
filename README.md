@@ -4,7 +4,48 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### 21 okt
+### 24 okt - Voortgang
+
+Ik heb mijn aside naar de achtergrond gebracht zodat die niet meer over de dialog heen loopt. Verder heb ik de dialog naar mijn body verplaatst inplaats van in de header.
+Ik heb animaties toegepast op de images in de main. Ze sliden nu van links/rechts naar het midden toe naarmate je naar beneden scrollt. Ook is er een paragraph over waarom ik voor dit onderwerp heb gekozen, die ik een andere kleur heb gegeven en ook een animatie om deze tekst toch iets anders te maken dan de overige tekst.
+Verder heb ik nog kleine dingen veranderd zoals de header image in het midden plaatsen.
+
+Ik voer nog voor de laatste keer de contrast test uit en kleurenblinde test, zodat ik zeker weet dat mijn website toegankelijk is.
+
+![Contrasttest1](./oefeningen/presentatie/images/colortest1.png)
+![Contrasttest2](./oefeningen/presentatie/images/colortest2.png)
+![Contrasttest3](./oefeningen/presentatie/images/colortest3.png)
+![Contrasttest4](./oefeningen/presentatie/images/colortest4.png)
+![Contrasttest5](./oefeningen/presentatie/images/colortest5.png) - Deze is van mijn logo (grote tekst)
+![Contrasttest6](./oefeningen/presentatie/images/colortest6.png)
+![Contrasttest7](./oefeningen/presentatie/images/colortest7.png)
+![Contrasttest8](./oefeningen/presentatie/images/colortest8.png)
+![Contrasttest9](./oefeningen/presentatie/images/colortest9.png)
+
+En de kleurenblinde test
+![Coloblindtest1](./oefeningen/presentatie/images/colorblind1.png)
+![Coloblindtest2](./oefeningen/presentatie/images/colorblind2.png)
+
+### 23 okt - Voortgang & Retrospect
+
+Vandaag heb ik de images van de haaien veranderd in mijn depthometer pagina. Ik heb deze fotos gehaald van google. Dit zijn de bronnen:
+witte haai: https://share.google/4YLVgTs4jHuGzo8G5
+hamerhaai: https://share.google/crsDSg1JFKp9yIjSr
+blauwe haai: https://share.google/g0OYSMLxRaHM4hZfG
+tijger haai: https://share.google/lLu9nZ0YSuGSE7J9q
+kortvinmakreelhaai: https://share.google/XwNWmFw4hLPECrbAq
+grijze rifhaai: https://share.google/sBeHTFK9P8g7vRjGo
+zandtijgerhaai: https://share.google/lNDxgyN6jxP5tE9CA
+stierhaai: https://share.google/yINQAem4PZwzK6K2W
+
+Ik heb mijn lyrics pagina aan mijn website gekoppeld en heb maar enkele kleine animations toegevoegd aan de tekst. Nog helemaal niet ver gekomen wat dat betreft.
+
+Retrospect:
+![Retrospect3-1](./oefeningen/presentatie/images/retrospect3-1.png)
+![Retrospect3-2](./oefeningen/presentatie/images/retrospect3-2.png)
+![Retrospect3-3](./oefeningen/presentatie/images/retrospect3-3.png)
+
+### 21 okt - Feedback
 
 Vandaag tijdens de feedback kreeg ik te horen dat ik mijn kopjes iets groter kan maken, animaties en meer transities toe moet voegen, mijn grid een beetje aanpassen om het interessanter te maken. Ook nog mijn lyrics pagina moest ik nog koppelen aan mijn digital garden en stylen.
 
@@ -18,15 +59,13 @@ Ik heb vandaag de kopjes al iets groter gemaakt, misschien geef ik deze ook nog 
 
 Ik wil dus een sideways tekst hebben aan de zijkanten van mijn pagina, en de images wil ik graag een scroll animation geven, dat deze groter worden naarmate je meer naar onder scrollt, en vervolgens weer kleiner wanneer je er verder van weg scrollt. Ik prioriteer wel eerst de grid. Ik wil dat de sideways teksten overlappen met de middelste kolom en een 50% opacity hebben zodat het niet verwarrend wordt om te lezen.
 
-### 12-16 okt
+### 12-16 okt - Thuis aan de slag
 
 Ik begin met het aanpassen van de stijl van mijn pagina.
 
 Als eerste heb ik mijn tekst grootte aangepast en iets kleiner gemaakt, omdat deze te groot was op computer schermen. Daarna heb ik een achtergrond gemaakt in photoshop en deze aan mijn pagina toegevoegd. Ik heb ook mijn header een kleur gegeven en een navigatiebalk toegevoegd die precies onder aan de header staat. Ik vond de navigatie in mijn aside niet heel handig en zag er niet super leuk uit. Ik wil in mijn aside misschien leuke animaties en tips toevoegen ofzo.
 
 Verder heb ik de kleuren van mijn website veranderd. Bij light mode is de achtergrond wit met donkerblauwe tekst en bij dark mode zwart met licht blauwe tekst, en daarop is dan nog mijn zelfgemaakte transparante achtergrond te zien.
-
-### 9 okt - Checkout
 
 ### 7 okt - Checkout
 
@@ -44,30 +83,36 @@ Er mag eigenlijk zoveel gekkigheid in zitten als je wilt, zolang het correct is 
 ### 5 okt - Checkout de regels en het spel
 
 Leg de volgende termen uit:
-Kerning
-Tracking
-Leading
-Flush-left
-Flush-right
-Centered
-Justified
-Indent
-Outdent
-Modular scale
-Movable type
-Focus punt
-Vijf soorten contrast
-spatial tension
+Kerning: ruimte tussen twee specifieke letters (vb tussen A en V dat die iets dichter op elkaar zijn)
+Tracking: ruimte tussen alle letters
+Leading: afstand tussen regels tekst
+Flush-left: tekst die links uitgelijnd is
+Flush-right: tekst die rechts uitgelijnd is
+Centered: tekst die in het midden is gecentreerd
+Justified: tekst waar zowel links als rechts een rechte lijn vormen
+Indent: een inspring in de tekst (een korte spatie vb. bij een nieuwe alinea)
+Outdent: de eerste regel steekt uit van de rest van de tekst (vaak bij genummerde lijsten waar de nummers meer naar buiten zijn)
+Modular scale: een wiskundige reeks met verhoudingen die wordt gebruikt voor lettergrootte, regel afstanden enz
+Movable type:
+Focus punt: visuele middelpunt van een ontwerp (zie je op eerste instantie)
+Vijf soorten contrast: Grootte, kleur, vorm, positie, structuur
+Spatial tension: de witteruimte tussen verschillende elementen
 
 Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+Ik heb geen ideale regellengte, maar het beste heb ik het niet heel lang, omdat ik dan sneller en makkelijker kan lezen en springen naar de volgende regel, in plaats van weer moeten zoeken waar ik al heb gelezen en waar nog niet.
 
-Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom? grootte. omdat ik vind dat dit de grootste rol speel bij hierarchie. ik kan direct zien dat het verschilt van de rest van de tekst.
 
-### 2 okt - Feedback
+### 2 okt - Feedback & Retrospect
 
 Cookies button moet iets doen als je de cookies niet accepteert, bijvoorbeeld dat je de pagina dan niet kunt gebruiken.
 Mijn eigen stijl nog toepassen bij mijn website.
 Nog een keer checken met de contrast test en kleurenblinde test na het toepassen van mijn stijl.
+
+Retrospect:
+![Retrospect2-1](./oefeningen/presentatie/images/retrospect2-1.png)
+![Retrospect2-2](./oefeningen/presentatie/images/retrospect2-2.png)
+![Retrospect2-3](./oefeningen/presentatie/images/retrospect2-3.png)
 
 ### 1 okt - Proces
 
@@ -87,6 +132,13 @@ En de kleurenblindheid simulator:
 ![Kleurenblindtest1](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.43.49.png)
 ![Kleurenblindtest2](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.44.12.png)
 ![Kleurenblindtest3](./oefeningen/presentatie/images/Screenshot%202026-09-30%20at%2010.44.21.png)
+
+WCAG Checklist:
+![WCAG-checklist1](./oefeningen/presentatie/images/WCAG-checklist1.png)
+![WCAG-checklist1](./oefeningen/presentatie/images/WCAG-checklist2.png)
+![WCAG-checklist1](./oefeningen/presentatie/images/WCAG-checklist3.png)
+![WCAG-checklist1](./oefeningen/presentatie/images/WCAG-checklist4.png)
+![WCAG-checklist1](./oefeningen/presentatie/images/WCAG-checklist5.png)
 
 Checkout
 
@@ -122,7 +174,8 @@ Ik heb nu ook een dialog toegevoegd. Dit is een pop up venster dat komt wanneer 
 
 Vandaag hebben wij geleerd hoe wij met een screenreader moeten omgaan en hoe belangrijk het is om jouw website toegankelijk te maken. Dit is trouwens ook de wet, dus jouw website moet voldoen aan bepaalde eisen, en dat moeten wij dus ook toepassen aan onze website. Wij hebben tijdens de les ook een beetje kunnen ervaren wat mensen met beperkingen ervaren op een dagelijkse basis, en waarmee zij te maken krijgen als iets niet is ontworpen met hun beperking in gedachten.
 
-Spiekbrief
+### Screenreader spierkbrief
+
 Start de screenreader met [Command + fn,f5]
 Een website openen/focus op de address bar [Ctrl + L]
 Scroll up and down [ Up and Down Arrow Keys ]
@@ -132,6 +185,9 @@ Een element's state veranderen, of openen en sluiten. Iets selecteren. [ Space ]
 Link of button activeren. Form versturen (geen textarea). [ Enter ]
 Promt annuleren. Dialogs en expanded comboboxes sluiten. [ Esc ]
 
+Om de hele pagine voorgelezen te laten worden [Control + Option + A]
+Open de lijst met alle kopjes, links, buttons enz [Control + Option + U]
+
 ### 25 sept - W3C validatie
 
 Op deze dag was ik niet bij de les, maar ik heb gepprobeerd dit toch nog thuis te doen.
@@ -140,18 +196,24 @@ Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgev
 HTML validatie kijkt of jouw code wel goed geschreven is en semantisch correct is. Dit is belangrijk om zeker te weten dat jouw website goed gelezen kan worden en goed functioneert.
 
 Welke dingen vielen je op?
+Dat ik veel "info's" krijg maar die ook gewoon goed zijn.
 
-Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
+Welke feedback heb je ontvangen tijdens het gesprek met je docenten? Ik was niet aanwezig en heb geen feedback ontvangen
 
 Intussen heb ik niet heel veel veranderd aan mijn website. Ik ben nog bezig in illustrator uit te werken hoe mijn pagina uiteindelijk eruit moet zien maar ik vind steeds mijn ideeen maar niets en gooi ze weg.
 
 ### 23 sept - Workshop 2
 
 Wat is een wireflow en wat heb je er aan?
+Een wireflow is een overzicht van jouw gehele website, waar je allemaal naartoe kan via welke pagina en hoe je daar komt (vb klikken op een button). Je kunt hiermee overzichtelijker bepalen wat beter werkt en hoe dat moet werken. Heel handig voor de ontwerper.
 
 Wat zijn dark UX patterns? Geef drie voorbeelden...
+1 filters: de gebruiker kan bijv in de zoekbalk filtreren op wat voor dingen zij te zien krijgen (prijs kleur etc)
+2 Hamburger menu: een icoontje dat ruimte bespaart door dingen op te bergen, wanneer je hierop klikt komen die te zien
+3 sticky navigation: een navigatiebalk die boven aan het scherm blijft terwijl je scrollt. de gebruiker hoeft dan niet weer helemaal naar boven te scrollen om naar een andere pagina te gaan.
 
 Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+Je moet de gegevens van de gebruiker respecterene en met heel veel care behandelen. Je moet de gebruiker altijd van tevoren waarschuwen of informeren wat voor gegevens van hun gebruikt worden en hoe di egebruikt worden. De gebruiker moet toestemming kunnen geven hiervoor. De ontwerper moet duidelijk en transparant blijven met de informatie. En het moet toegankelijk zijn.
 
 ### 22 sept - Ontwerpproces
 
@@ -196,7 +258,7 @@ h3 een subsectie van de h2 en zo verder tot h6.
 Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
 Ik klik altijd op cookies afwijzen of alleen nodige cookies accepteren die zorgen ervoor dat de website goed werkt, omdat ik niet wil dat alles dat ik online doe wordt getraced alleen zodat ik gepersonaliseerde advertenties krijg. Ik besteed toch nooit aandacht aan de advertenties. Ik weet ook niet heel precies waar zij toegang naar hebben. Ik ben er gewoon geen fan van. Ik ben niet bij de college geweest wegens persoonlijke redenen, maar ik ben niet van gedachten veranderd en klik lekker door op "No thanks" als het mijn toestemming vraagt.
 
-### 18 sept - Voortgangsgesprek
+### 18 sept - Voortgangsgesprek & Retrospect
 
 Mijn website is niet heel persoonlijk, wat verbind de haaien aan mij? Waarom heb ik hiervoor gekozen en waarom vind ik dit onderwerp zo bijzonder? Ik heb ook een beetje een saaie website, lijkt op een wikipedia.
 
@@ -211,17 +273,26 @@ Handig om te weten wat de step en clamp dingen doen en waarvoor de nummers staan
 Laten zien welke schetsen en inspiratiebeelden ik gebruik heb. Wat mijn ontwerpproces is/was.
 
 CHECKOUT
+Orienteren en begrijpen
 Waarom geven docenten deze opdracht?
 Ik denk dat zij deze opdracht geven om te zien hoe creatief wij kunnen zijn als wij de vrijheid krijgen om iets te maken waar wij enthousiast over zijn en waar wij een deel van onzelf in kunnen herkennen. Tegelijkertijd leren wij ook nieuwe mogelijkheden binnen html en css en wat is een betere manier om iets nieuws te leren dan het direct in de praktijk te gebruiken.
 
-Welke technieken gebruik ik?
+Welke technieken gebruik ik? Ik maak tot nu toe nog niet veel gebruik van veel technieken. Ik weet nog niet zeker hoe ik mijn pagina eruit wil laten zien en heb voorlopig dus echt alleen de basis technieken gebruikt.
 
 Wat zijn de randvoorwaarden?
+Mijn website staat tijdig op Github en werkt zonder fouten.
+Mijn voortgang bespreken tijdens de voortgangsgesprekken.
+Proces inzichtelijk vastgelegd
+Bronnen vermeld in learning log en code.
+Werk zelf gemaakt en kan keuzes, code en ideeen uitleggen.
 
 Waar gebruik ik HTML/CSS voor?
+Html gebruik ik voor de content op mijn pagina en CSS gebruik ik voor het stijlen van mijn pagina.
 
 Wat kan er allemaal met CSS?
+Met CSS kun je bijna alles dat je nodig hebt om een 'mooie' website te kunnen maken. Je kunt kleuren aanpassen, elementen verschuiven, de grootte bepalen, witte ruimtes, lettertype toevoegen en bewerken enz.
 
+Verbeelden en conceptualiseren
 Lukt het om verschillende ideeën te bedenken?
 Het lukt wel, maar ik heb vaak het probleem dat ik denk aan een idee maar makkelijk afdwaal van het eerste idee en in het proces vergeet waar ik allemaal aan dacht. Ik kan dit oplossen door direct mijn ideeën op te schrijven, maar dan heb ik ook niet altijd hetzelfde beeld waaraan ik toen dacht in mijn hoofd.
 
@@ -229,12 +300,13 @@ Lukt het om ideeën te schetsen?
 Ja maar ook nee. In mijn hoofd kan iets er heel anders uit zien dan ik kan verbeelden. Ik wil wel beginnen bij 1 punt en dan kijken hoe verder.
 
 Wat doet deze CSS property?
+Ik houd wel ervan om te spelen met mijn css properties, omdat er soms iets onverwachts gebeurt dat ik wel leuker vind dan mijn origineel idee, en zo dan verder ga. Ook kom ik vaker achter dingen die ik nog niet wist, of vergeten was.
 
-Welke content en welke HTML heb ik nodig?
+Prototypen en uitwerken
+Ik ben nog aan het schetsen in adobe illustrate wat voor individuele dingen ik wil toevoegen aan mijn website, maar heb nog een beetje moeite met het alles samenhangend te maken. In mijn hoofd zien ze er ook heel anders uit dan in het echt en ik weet niet precies hoe ik het kan visualiseren. Maar als we kijken naar wat ik nu heb is het wel een basic website die iedereen wel kan begrijpen, maar ziet er wel gewoon saai uit.
 
-Hoe kan ik dit soort vormen vormgeven?
-
-Wat als ik hier nu eens 1000 invul?
+Evalueren
+Ik zit nogsteeds een beetje vast en kan nog niet heel veel evalueren. Het zou even goed gewoon een website kunnen zijn zonder CSS.
 
 Retrospect opdrachten
 ![Retrospect1](./oefeningen/presentatie/images/Retrospect1.png)
@@ -273,9 +345,7 @@ Ik ben nog niet heel ver gekomen met het bewerken van mijn website omdat ik stee
 
 ### 9 sept - Presentatie, Visual Research en Crazy 8
 
-Voor mij is de essentie is het onderwerp duidelijk overbrengen en eigenlijk vertellen waarom ik precies dit onderwerp heb gekozen. Mensen vooral leuke weetjes leren over haaien maar ook laten weten waarom zij zo belangrijk zijn en informeren over de problemen die er zijn voor deze dieren.
-
-??? Welke kwaliteitenlijst
+Voor mij is de essentie het onderwerp duidelijk overbrengen en eigenlijk vertellen waarom ik precies dit onderwerp heb gekozen. Mensen vooral leuke weetjes leren over haaien maar ook laten weten waarom zij zo belangrijk zijn en informeren over de problemen die er zijn voor deze dieren.
 
 Zij vond mijn onderwerp interessant, informatief en leuk dat ik die gekozen heb. Niets negatiefs te zeggen erover.
 

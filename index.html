@@ -17,20 +17,19 @@
     ></script>
   </head>
   <body>
+    <dialog id="mydialog" open>
+      <form method="dialog">
+        <h2>Cookies instellen</h2>
+        <p>
+          Deze pagina maakt gebruik van Github pages hosting en Digitaaltuintje
+          component. Bepaalde gegevens van de gebruiker kunnen worden gebruikt
+          om de website goed te laten functioneren. Door op 'Accepteren' te
+          klikken ga je akkoord met het verwerken van uw gegevens.
+        </p>
+        <button>Accepteren</button>
+      </form>
+    </dialog>
     <header>
-      <dialog id="mydialog" open>
-        <form method="dialog">
-          <h2>Cookies instellen</h2>
-          <p>
-            Deze pagina maakt gebruik van Github pages hosting en
-            Digitaaltuintje component. Bepaalde gegevens van de gebruiker kunnen
-            worden gebruikt om de website goed te laten functioneren. Door op
-            'Accepteren' te klikken ga je akkoord met het verwerken van uw
-            gegevens.
-          </p>
-          <button>Accepteren</button>
-        </form>
-      </dialog>
       <article>
         <ul>
           <li>
@@ -57,12 +56,11 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="sharkdepth.html">Depthometer</a></li>
         <li><a href="lyrics.html">Song</a></li>
-        <li><a href="">Creator</a></li>
       </ul>
     </nav>
 
     <aside>
-      <h2>SHARK DOMAIN</h2>
+      <h1>SHARK DOMAIN</h1>
     </aside>
 
     <main>
@@ -71,13 +69,16 @@
         <p>
           Haaien worden vaak gezien als angstjagende dieren die graag een mens
           op het menu hebben staan, maar zo zie ik het helemaal niet. Ik vind
-          deze unieke dieren zo stoer maar ook heel schattig. Ik heb er zelf wel
-          eens een baby haai geaaid in 2014 en weet nog precies hoe de huid
-          voelt op mijn hand. Zij hebben een heel groffe huid, net als
-          schuurpapier.
+          deze unieke dieren zo stoer maar ook heel schattig. Ik heb zelf wel
+          eens een baby haai geaaid en weet nog precies hoe de huid voelt op
+          mijn hand. Zij hebben een heel groffe huid, net als schuurpapier.
         </p>
 
-        <img src="./assets/images/shark2.jpg" alt="Haai" />
+        <img
+          src="./assets/images/xrayshark.png"
+          alt="Decoratieve haai foto"
+          id="imageSlideL"
+        />
 
         <p>
           Deze huid dient voornamelijk voor snelheid, bescherming en camouflage!
@@ -87,18 +88,17 @@
           glazuur.
         </p>
 
-        <p>
+        <p id="waaromP">
           Waarom heb ik dus gekozen om mijn onderwerp te laten gaan over haaien?
-          Dat weet ik ook niet precies! Ik weet alleen dat deze dieren mij een
-          sterk gevoel van bewondering geven. Maar wist jij dat haaien een
-          bedreidge diersoort zijn? Daar wil ik ook de nadruk op leggen en laten
-          zien hoe ironisch het is dat deze "gevaarlijke dieren" degenen zijn
-          die in gevaar zijn.
+          Deze dieren geven mij een sterk gevoel van bewondering. Maar ik wil
+          ook de nadruk leggen op het feit dat deze dieren een bedreigde
+          diersoort zijn, en laten zien hoe ironisch het is dat deze
+          "gevaarlijke dieren" degenen zijn die in gevaar zijn.
         </p>
         <p>
-          Per jaar sterven gemiddeld 10 personen aan een haaienaanval, in
-          vergelijking tot 100 miljoen haaien die elk jaar sterven door de mens.
-          Wie vormt dus het echte gevaar?
+          Per jaar sterven gemiddeld <strong>10 personen</strong> aan een
+          haaienaanval, in vergelijking tot <strong>100 miljoen</strong> haaien
+          die elk jaar sterven door de mens. Wie vormt dus het echte gevaar?
         </p>
       </article>
 
@@ -112,7 +112,11 @@
           populatie afgenomen met ruim 70%.
         </p>
 
-        <img src="./assets/images/shark1.jpg" alt="haai" />
+        <img
+          src="./assets/images/glowshark.png"
+          alt="Decoratieve haai foto"
+          id="imageSlideR"
+        />
       </article>
       <article>
         <h2>Wat zijn de gevolgen?</h2>
@@ -165,7 +169,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="sharkdepth.html">Depthometer</a></li>
-          <li><a href="/.html">Creator</a></li>
+          <li><a href="lyrics.html">Song</a></li>
         </ul>
       </nav>
       <p>Je hebt het einde bereikt van deze pagina!</p>
