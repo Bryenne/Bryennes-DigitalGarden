@@ -4,10 +4,33 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 26 okt - Expo, Log en Webbyness
+
+![Expo-feedback](./oefeningen/presentatie/images/feedback-expo.png)
+
+Ik ben heel blij met de feedback die ik ontvangen heb op mijn website. Alleen maar positieve dingen heb ik te horen gekregen en dat maakt mij eigenlijk wel heel trots op mezelf en wat ik uiteindelijk gemaakt heb.
+
+Samen met mijn klasgenoten zijn wij over mijn learning log heen gegaan en die hebben mij geholpen mijn formulier in te vullen over Hoe log is jouw learning log.
+![LearningLog](./oefeningen/presentatie/images/learninglog-form.png)
+
+En de laatste 'Hoe webby is jouw website' test:
+![Webbyness-test](./oefeningen/presentatie/images/webbyness.png)
+
+### 25 okt - Proces
+
+Ik heb vandaag mijn lyrics pagina met css wat kleur, stijl en animaties/transitions gegeven. Ik denk dat ik nog heel even de variable fonts meer moet toepassen omdat ik niet echt daarmee heb gespeeld.
+
+Op mijn home pagina heb ik de h1 aan de zijkant staan. Deze kwam bovenop de dialog te staan en zorgde ervoor dat je op mobile niet kon klikken op de 'accept' button in de cookie popup. Ik heb
+
+Verder heb ik ook mijn learnign log wat bijgewerkt, kijken wat er nog ontbrak van de vorige weken.
+
+Waar ik nog even moeite mee heb is met animations mijn content kunnen veranderen. Dit wil ik doen op mijn lyrics pagina maar die werkt nog niet. Ik moet dat dan nog uitpuzzelen en kijken wat er mis is gegaan.
+
 ### 24 okt - Voortgang
 
-Ik heb mijn aside naar de achtergrond gebracht zodat die niet meer over de dialog heen loopt. Verder heb ik de dialog naar mijn body verplaatst inplaats van in de header.
-Ik heb animaties toegepast op de images in de main. Ze sliden nu van links/rechts naar het midden toe naarmate je naar beneden scrollt. Ook is er een paragraph over waarom ik voor dit onderwerp heb gekozen, die ik een andere kleur heb gegeven en ook een animatie om deze tekst toch iets anders te maken dan de overige tekst.
+Op mijn home pagina heb ik de h1 aan de zijkant in de aside staan. Deze kwam bovenop de dialog te staan en zorgde ervoor dat je op mobile niet kon klikken op de 'accept' button in de cookie popup.
+Ik heb mijn aside met de z-index naar de achtergrond gebracht zodat die niet meer over de dialog heen loopt. Verder heb ik de dialog naar mijn body verplaatst inplaats van in de header.
+Ik heb scroll driven animaties toegepast op de images in de main. Ze sliden nu van links/rechts naar het midden toe naarmate je naar beneden scrollt. Ook is er een paragraph over waarom ik voor dit onderwerp heb gekozen, die ik een andere kleur heb gegeven en ook een animatie om deze tekst toch iets anders te maken dan de overige tekst.
 Verder heb ik nog kleine dingen veranderd zoals de header image in het midden plaatsen.
 
 Ik voer nog voor de laatste keer de contrast test uit en kleurenblinde test, zodat ik zeker weet dat mijn website toegankelijk is.
@@ -38,7 +61,18 @@ grijze rifhaai: https://share.google/sBeHTFK9P8g7vRjGo
 zandtijgerhaai: https://share.google/lNDxgyN6jxP5tE9CA
 stierhaai: https://share.google/yINQAem4PZwzK6K2W
 
+van de 2 fotos vand e haaien op de home pagina zijn de bronnen:
+
+haai 1: https://pin.it/6OYnb1TbL
+haai 2: https://pin.it/3aXkTHSc2
+
 Ik heb mijn lyrics pagina aan mijn website gekoppeld en heb maar enkele kleine animations toegevoegd aan de tekst. Nog helemaal niet ver gekomen wat dat betreft.
+
+![Songtekst-schetsen](./oefeningen/presentatie/images/songtekst-schetsen.png)
+
+Hier heb ik een paar van mijn schetsen voor de lyrics pagina. Ik heb veel "randomly placed" lyrics en dat is precies hoe ik dit lied wil uitbeelden. Toen ik er voor het eerst naar luisterde was het zo van ik heb geen idee wat er volgt. Alles gebeurde overal en het was zo chaotisch maar op hetzelfde moment ook heel samenhangend en comfortabel.
+
+Ik heb besloten alle tekst in capitals te zetten omdat dit voor mij zo aanvoelt. Het is scherp en hard geluid met de gitaar en drum op de achtergrond. Het is zo luid en crazy all at once, maar toch nog super cool.
 
 Retrospect:
 ![Retrospect3-1](./oefeningen/presentatie/images/retrospect3-1.png)
