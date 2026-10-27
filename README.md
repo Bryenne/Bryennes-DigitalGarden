@@ -4,6 +4,14 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 27 okt - Laatste dag, laatste bewerkingen
+
+Ik heb vandaag nog een pagina toegevoegd voor als je de cookies weigert. Gisteren kreeg ik nog als feedback te horen dat het niet zo fijn is dat je geen keuze hebt een de cookies moet accepteren. Ik heb wel gewoon een soort error page gemaakt. Van daaruit kan je wel terug om de cookies alsnog te accepteren. Op deze pagina heb ik ook nog een simpele animatie op de achtergrond.
+
+Verder heb ik nog kleine dingen zoals hover en focus states veranderd. De line height van de light/dark buttons.
+
+Ik heb ook eindelijk wat variable fonts toegevoegd aan de lyrics pagina.
+
 ### 26 okt - Expo, Log en Webbyness
 
 ![Expo-feedback](./oefeningen/presentatie/images/feedback-expo.png)
@@ -20,8 +28,6 @@ En de laatste 'Hoe webby is jouw website' test:
 
 Ik heb vandaag mijn lyrics pagina met css wat kleur, stijl en animaties/transitions gegeven. Ik denk dat ik nog heel even de variable fonts meer moet toepassen omdat ik niet echt daarmee heb gespeeld.
 
-Op mijn home pagina heb ik de h1 aan de zijkant staan. Deze kwam bovenop de dialog te staan en zorgde ervoor dat je op mobile niet kon klikken op de 'accept' button in de cookie popup. Ik heb
-
 Verder heb ik ook mijn learnign log wat bijgewerkt, kijken wat er nog ontbrak van de vorige weken.
 
 Waar ik nog even moeite mee heb is met animations mijn content kunnen veranderen. Dit wil ik doen op mijn lyrics pagina maar die werkt nog niet. Ik moet dat dan nog uitpuzzelen en kijken wat er mis is gegaan.
@@ -29,7 +35,9 @@ Waar ik nog even moeite mee heb is met animations mijn content kunnen veranderen
 ### 24 okt - Voortgang
 
 Op mijn home pagina heb ik de h1 aan de zijkant in de aside staan. Deze kwam bovenop de dialog te staan en zorgde ervoor dat je op mobile niet kon klikken op de 'accept' button in de cookie popup.
+
 Ik heb mijn aside met de z-index naar de achtergrond gebracht zodat die niet meer over de dialog heen loopt. Verder heb ik de dialog naar mijn body verplaatst inplaats van in de header.
+
 Ik heb scroll driven animaties toegepast op de images in de main. Ze sliden nu van links/rechts naar het midden toe naarmate je naar beneden scrollt. Ook is er een paragraph over waarom ik voor dit onderwerp heb gekozen, die ik een andere kleur heb gegeven en ook een animatie om deze tekst toch iets anders te maken dan de overige tekst.
 Verder heb ik nog kleine dingen veranderd zoals de header image in het midden plaatsen.
 

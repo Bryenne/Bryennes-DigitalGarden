@@ -42,7 +42,7 @@ body {
   background-image: linear-gradient(var(--blauw), var(--zwart));
 }
 
-body > nav ul {
+body nav ul {
   display: flex;
   justify-content: center;
   gap: var(--step--2);
@@ -53,7 +53,7 @@ body > nav ul {
   font-family: Synemono;
 }
 
-body > nav ul li a {
+body nav ul li a {
   color: rgb(133, 220, 255);
   text-decoration: none;
 }
@@ -84,10 +84,6 @@ nav {
 
 main {
   text-align: center;
-}
-
-main a {
-  text-decoration: none;
 }
 
 footer {
@@ -137,6 +133,16 @@ p :first-of-type {
 main a {
   color: rgb(2, 10, 33);
   font-family: SyneMono;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+  color: white;
 }
 
 img {
@@ -193,6 +199,10 @@ footer p {
   color: white;
 }
 
-footer a {
+footer a:last-of-type {
   color: rgb(133, 220, 255);
+}
+
+footer a:last-of-type:hover {
+  color: rgb(79, 114, 205);
 }

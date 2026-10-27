@@ -219,6 +219,7 @@ header article li {
   display: grid;
   align-items: center;
   margin: 1em;
+  line-height: 2;
 }
 
 header img {
@@ -259,11 +260,13 @@ strong {
 /* MARK: Main elementen */
 /* Ik heb hier (en ook bij de volgende animaties) een id gebruikt specifiek zodat ik de animatie erop kon zetten */
 #waaromP {
-  color: var(--color-strong);
-  margin-top: 5em;
-  margin-bottom: 5em;
-  animation: waaromP both;
-  animation-timeline: view(80% 5%);
+  @media (prefers-reduced-motion: no-preference) {
+    color: var(--color-strong);
+    margin-top: 5em;
+    margin-bottom: 5em;
+    animation: waaromP both;
+    animation-timeline: view(80% 5%);
+  }
 }
 
 @keyframes waaromP {
@@ -309,11 +312,14 @@ img {
 }
 
 #imageSlideL {
-  padding: 1em;
-  padding-bottom: 2em;
+  @media (prefers-reduced-motion: no-preference) {
+    padding: 1em;
+    padding-bottom: 2em;
 
-  animation: imageSlideL both;
-  animation-timeline: view(60% 10%);
+    animation: imageSlideL both;
+    /* both zorgt ervoor dat de animatie blijft bij de laatste keyframe nadat die klaar is met afspelen. */
+    animation-timeline: view(60% 10%);
+  }
 }
 
 @keyframes imageSlideL {
@@ -331,11 +337,13 @@ img {
 }
 
 #imageSlideR {
-  padding: 1em;
-  padding-bottom: 2em;
+  @media (prefers-reduced-motion: no-preference) {
+    padding: 1em;
+    padding-bottom: 2em;
 
-  animation: imageSlideR both;
-  animation-timeline: view(60% 10%);
+    animation: imageSlideR both;
+    animation-timeline: view(60% 10%);
+  }
 }
 
 @keyframes imageSlideR {
@@ -405,9 +413,3 @@ footer a:hover {
   background-color: rgb(215, 91, 215);
   border: 0.3em solid;
 }
-
-/* a:visited {
-  background-color: rgb(2, 53, 36);
-  border-color: green;
-  color: green;
-} */

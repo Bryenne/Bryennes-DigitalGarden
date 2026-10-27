@@ -17,6 +17,7 @@
     ></script>
   </head>
   <body>
+    <!-- Deze code over de dialog heb ik van de Dialog -->
     <dialog id="mydialog" open>
       <form method="dialog">
         <h2>Cookies instellen</h2>
@@ -24,9 +25,15 @@
           Deze pagina maakt gebruik van Github pages hosting en Digitaaltuintje
           component. Bepaalde gegevens van de gebruiker kunnen worden gebruikt
           om de website goed te laten functioneren. Door op 'Accepteren' te
-          klikken ga je akkoord met het verwerken van uw gegevens.
+          klikken ga je akkoord met het verwerken van je gegevens.
+        </p>
+        <p>
+          Let op: als je deze cookies weigert kan je de website niet gebruiken.
         </p>
         <button>Accepteren</button>
+        <button onclick="window.location.href = 'cookies.html'">
+          Weigeren
+        </button>
       </form>
     </dialog>
     <header>
@@ -105,11 +112,11 @@
       <article>
         <h2>Haaien als bedreigde diersoort.</h2>
         <p>
-          Hoewel haaien al 400 miljoen jaar overleefd hebben, zijn zij inderdaad
-          een bedreigde diersoort. Dit is een probleem dat begon in de jaren 70,
-          met de opkomst van grootschalige visserij. De dieren planten zich niet
-          snel voort, dus de aantallen verminderen snel. Inmiddels is de haaien
-          populatie afgenomen met ruim 70%.
+          Hoewel haaien al <strong>400 miljoen</strong> jaar overleefd hebben,
+          zijn zij inderdaad een bedreigde diersoort. Dit is een probleem dat
+          begon in de jaren 70, met de opkomst van grootschalige visserij. De
+          dieren planten zich niet snel voort, dus de aantallen verminderen
+          snel. Inmiddels is de haaien populatie afgenomen met ruim 70%.
         </p>
 
         <img
@@ -137,13 +144,16 @@
       <article>
         <h2>Hoe kunnen wij ze beschermen?</h2>
         <p>
-          Wij kunnen de haaien beschermen door een eind te brengen aan
-          overbevissing, geen haaienproducten te kopen en bewustwording te
-          verspreiden. Controleer verder of er geen dierlijke producten zitten
-          in cosmetica / verzorgingsproducten. Je kunt ook ervoor zorgen dat jij
-          de strand schoon achterlaat en vrij van plastic dat in de zee terecht
-          kan komen. Als jij je houdt aan deze simpele stappen kunnen wij het
-          samen oplossen!
+          Wij kunnen de haaien beschermen door
+          <strong
+            >een eind te brengen aan overbevissing, geen haaienproducten te
+            kopen en bewustwording te verspreiden.</strong
+          >
+          Controleer verder of er geen dierlijke producten zitten in cosmetica /
+          verzorgingsproducten. Je kunt ook ervoor zorgen dat jij de strand
+          schoon achterlaat en vrij van plastic dat in de zee terecht kan komen.
+          Als jij je houdt aan deze simpele stappen kunnen wij het samen
+          oplossen!
         </p>
       </article>
 
