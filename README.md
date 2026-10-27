@@ -4,6 +4,18 @@ Het model staat voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### Reflectie over dit blok
+
+Ik ben dit blok het meest gegroeid in mijn technische vaardigheden (HTML en CSS). Ik heb bij de Deep dives heel veel kunnen leren en ontdekt wat voor mogelijkheden er allemaal zijn door alleen CSS en HTML te gebruiken. Ik heb geen javascript (misschien 1 of 2 regels binnen de html pagina zelf) gebruikt omdat ik het niet echt nodig had om mijn website te ontwerpen hoe ik dat zelf wou.
+
+Ik kreeg de vrijheid om te experimenteren, uitproberen, fouten te maken en daaruit te leren. Ik vond de vrijheid wel fijn, maar had er tegelijkertijd ook wat moeite mee. Wanneer ik te veel vrijheid heb weet ik vaak niet waar ik mee moet beginnen en dat probleem had ik in het begin van het ontwerpproces. Ik had verschillende visuele ideeen die ik uiteindelijk helemaal niet meer heb gedaan. Maar ergens daarin is het ook het mooie ervan. Hoe mijn eerste idee zo veel kan verschillen van het eind product, en ik er toch super blij mee ben. Waarschijnlijk ook gewoon blijer dan ik zou zijn als ik bleef bij het eerste idee.
+
+Ik heb ook gemerkt da tik ben gegroeid in feedback ontvangen. Tijdens mijn eerste jaar had ik vaak het gevoel dat ik geen kritiek wilde op mijn werk en dat iedereen het al goed moest vinden, terijwl ik tijdens dit projects wel steeds op zoek was naar feedback en wilde verbeteren. Ik heb vooral aan het einde (laatste 2 weken) veel naar feedback gevraagd. Waarom zo laat? omdat ik niet blij was met wat ik daarvoor had, het was trouwens bijna niets en helemaal niet indrukwekkend, en wilde dat niet aan anderen laten zien. Ik denk dat ik daar ook een gevoel had van perfectionisme.
+
+De manier waarop ik aan de slag ging tijdens de sprints vond ik in het begin heel relaxed, misschien een beetje te relaxed, omdat ik toen lui werd en dacht oh ik heb toch nog zoveel tijd en mijn werk steeds uitstelde. Maar ik kreeg ook net een soort art block waarbij ik gewoon heel veel moeite had met nieuwe ideeen bedenken en kunnen uitbeelden. Ik kreeg pas de laaste 2 weken ongeveer van dit project een 'boost' van energie en motivatie om te werken aan mijn website, en kreeg toen ook weer nieuwe ideeen waar ik uiteindelijk mee ben door gegaan. Ik denk dat ik heel goed onder druk kan werken en zoek naar de stress. Maar als ik die stress niet voel stress ik ook omdat ik niet genoeg stress haha.
+
+Maar ja, ik heb het project afgerond en kan niet blijer zijn met de uitkomst. Ik vind dat de stijl en het onderwerp helemaal bij mij passen en ik trots naar mijn werk terug kan kijken.
+
 ### 27 okt - Laatste dag, laatste bewerkingen
 
 Ik heb vandaag nog een pagina toegevoegd voor als je de cookies weigert. Gisteren kreeg ik nog als feedback te horen dat het niet zo fijn is dat je geen keuze hebt een de cookies moet accepteren. Ik heb wel gewoon een soort error page gemaakt. Van daaruit kan je wel terug om de cookies alsnog te accepteren. Op deze pagina heb ik ook nog een simpele animatie op de achtergrond.
