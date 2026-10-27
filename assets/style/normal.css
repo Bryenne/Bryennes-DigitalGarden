@@ -215,6 +215,17 @@ header article {
   grid-template-columns: auto auto auto;
 }
 
+header article h2 {
+  color: transparent;
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+/* ik heb deze heading met opzet onzichtbaar gemaakt omdat het semantisch correct is om een heading te hebben in je article maar ik wil er eigenlijk helemaal geen hebben */
+
 header article li {
   display: grid;
   align-items: center;

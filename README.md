@@ -12,6 +12,8 @@ Verder heb ik nog kleine dingen zoals hover en focus states veranderd. De line h
 
 Ik heb ook eindelijk wat variable fonts toegevoegd aan de lyrics pagina.
 
+Als laatste heb ik nog gekeken of mijn pagina vrij is van warnings of errors. Ik had 1 warning in de article in de header van mijn home pagina waar de titel ontbrak. Ik heb een h2 toegevoegd die onzichtbaar is maar nogsteeds semantisch correct blijft.
+
 ### 26 okt - Expo, Log en Webbyness
 
 ![Expo-feedback](./oefeningen/presentatie/images/feedback-expo.png)
